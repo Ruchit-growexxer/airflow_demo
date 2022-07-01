@@ -1,0 +1,97 @@
+[2022-07-01 09:25:16,053] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: example_python_operator.print_the_context manual__2022-07-01T09:25:15.175968+00:00 [queued]>
+[2022-07-01 09:25:16,063] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: example_python_operator.print_the_context manual__2022-07-01T09:25:15.175968+00:00 [queued]>
+[2022-07-01 09:25:16,063] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-01 09:25:16,063] {taskinstance.py:1250} INFO - Starting attempt 1 of 1
+[2022-07-01 09:25:16,063] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-01 09:25:16,072] {taskinstance.py:1270} INFO - Executing <Task(_PythonDecoratedOperator): print_the_context> on 2022-07-01 09:25:15.175968+00:00
+[2022-07-01 09:25:16,076] {standard_task_runner.py:52} INFO - Started process 4560 to run task
+[2022-07-01 09:25:16,078] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'example_python_operator', 'print_the_context', 'manual__2022-07-01T09:25:15.175968+00:00', '--job-id', '8', '--raw', '--subdir', '/home/***/.local/lib/python3.7/site-packages/***/example_dags/example_python_operator.py', '--cfg-path', '/tmp/tmpq64wad63', '--error-file', '/tmp/tmp_1fyi00c']
+[2022-07-01 09:25:16,078] {standard_task_runner.py:80} INFO - Job 8: Subtask print_the_context
+[2022-07-01 09:25:16,138] {logging_mixin.py:109} INFO - Running <TaskInstance: example_python_operator.print_the_context manual__2022-07-01T09:25:15.175968+00:00 [running]> on host 354cfdc9682d
+[2022-07-01 09:25:16,174] {taskinstance.py:1448} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=example_python_operator
+AIRFLOW_CTX_TASK_ID=print_the_context
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-01T09:25:15.175968+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-01T09:25:15.175968+00:00
+[2022-07-01 09:25:16,175] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:220: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2022-07-01 09:25:16,175] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:220: AirflowContextDeprecationWarning: Accessing 'next_ds' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds }}' instead.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2022-07-01 09:25:16,175] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:220: AirflowContextDeprecationWarning: Accessing 'next_ds_nodash' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds_nodash }}' instead.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2022-07-01 09:25:16,175] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:220: AirflowContextDeprecationWarning: Accessing 'next_execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_end' instead.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2022-07-01 09:25:16,175] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:220: AirflowContextDeprecationWarning: Accessing 'prev_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2022-07-01 09:25:16,175] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:220: AirflowContextDeprecationWarning: Accessing 'prev_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2022-07-01 09:25:16,175] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:220: AirflowContextDeprecationWarning: Accessing 'prev_execution_date' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2022-07-01 09:25:16,175] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:220: AirflowContextDeprecationWarning: Accessing 'prev_execution_date_success' from the template is deprecated and will be removed in a future version. Please use 'prev_data_interval_start_success' instead.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2022-07-01 09:25:16,176] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:220: AirflowContextDeprecationWarning: Accessing 'tomorrow_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2022-07-01 09:25:16,176] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:220: AirflowContextDeprecationWarning: Accessing 'tomorrow_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2022-07-01 09:25:16,176] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:220: AirflowContextDeprecationWarning: Accessing 'yesterday_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2022-07-01 09:25:16,176] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:220: AirflowContextDeprecationWarning: Accessing 'yesterday_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2022-07-01 09:25:16,176] {logging_mixin.py:109} INFO - {'conf': <***.configuration.AirflowConfigParser object at 0x7f995826af10>,
+ 'conn': None,
+ 'dag': <DAG: example_python_operator>,
+ 'dag_run': <DagRun example_python_operator @ 2022-07-01 09:25:15.175968+00:00: manual__2022-07-01T09:25:15.175968+00:00, externally triggered: True>,
+ 'data_interval_end': DateTime(2022, 7, 1, 9, 25, 15, 175968, tzinfo=Timezone('UTC')),
+ 'data_interval_start': DateTime(2022, 7, 1, 9, 25, 15, 175968, tzinfo=Timezone('UTC')),
+ 'ds_nodash': '20220701',
+ 'execution_date': <Proxy at 0x7f994cee9e10 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f994ce86290>, 'execution_date', DateTime(2022, 7, 1, 9, 25, 15, 175968, tzinfo=Timezone('UTC')))>,
+ 'inlets': [],
+ 'logical_date': DateTime(2022, 7, 1, 9, 25, 15, 175968, tzinfo=Timezone('UTC')),
+ 'macros': <module '***.macros' from '/home/***/.local/lib/python3.7/site-packages/***/macros/__init__.py'>,
+ 'next_ds': <Proxy at 0x7f994ce82910 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f994ce86290>, 'next_ds', '2022-07-01')>,
+ 'next_ds_nodash': <Proxy at 0x7f994ce82b90 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f994ce86290>, 'next_ds_nodash', '20220701')>,
+ 'next_execution_date': <Proxy at 0x7f994ce821e0 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f994ce86290>, 'next_execution_date', DateTime(2022, 7, 1, 9, 25, 15, 175968, tzinfo=Timezone('UTC')))>,
+ 'outlets': [],
+ 'params': {},
+ 'prev_data_interval_end_success': None,
+ 'prev_data_interval_start_success': None,
+ 'prev_ds': <Proxy at 0x7f994ce82960 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f994ce86290>, 'prev_ds', '2022-07-01')>,
+ 'prev_ds_nodash': <Proxy at 0x7f994ce84dc0 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f994ce86290>, 'prev_ds_nodash', '20220701')>,
+ 'prev_execution_date': <Proxy at 0x7f994ce84d70 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f994ce86290>, 'prev_execution_date', DateTime(2022, 7, 1, 9, 25, 15, 175968, tzinfo=Timezone('UTC')))>,
+ 'prev_execution_date_success': <Proxy at 0x7f994ce849b0 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f994ce86290>, 'prev_execution_date_success', None)>,
+ 'prev_start_date_success': None,
+ 'run_id': 'manual__2022-07-01T09:25:15.175968+00:00',
+ 'task': <Task(_PythonDecoratedOperator): print_the_context>,
+ 'task_instance': <TaskInstance: example_python_operator.print_the_context manual__2022-07-01T09:25:15.175968+00:00 [running]>,
+ 'task_instance_key_str': 'example_python_operator__print_the_context__20220701',
+ 'templates_dict': None,
+ 'test_mode': False,
+ 'ti': <TaskInstance: example_python_operator.print_the_context manual__2022-07-01T09:25:15.175968+00:00 [running]>,
+ 'tomorrow_ds': <Proxy at 0x7f994ce84c80 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f994ce86290>, 'tomorrow_ds', '2022-07-02')>,
+ 'tomorrow_ds_nodash': <Proxy at 0x7f994cf10050 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f994ce86290>, 'tomorrow_ds_nodash', '20220702')>,
+ 'ts': '2022-07-01T09:25:15.175968+00:00',
+ 'ts_nodash': '20220701T092515',
+ 'ts_nodash_with_tz': '20220701T092515.175968+0000',
+ 'var': {'json': None, 'value': None},
+ 'yesterday_ds': <Proxy at 0x7f994ce7aaf0 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f994ce86290>, 'yesterday_ds', '2022-06-30')>,
+ 'yesterday_ds_nodash': <Proxy at 0x7f994ce7af50 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f994ce86290>, 'yesterday_ds_nodash', '20220630')>}
+[2022-07-01 09:25:16,176] {logging_mixin.py:109} INFO - 2022-07-01
+[2022-07-01 09:25:16,176] {python.py:175} INFO - Done. Returned value was: Whatever you return gets printed in the logs
+[2022-07-01 09:25:16,191] {taskinstance.py:1288} INFO - Marking task as SUCCESS. dag_id=example_python_operator, task_id=print_the_context, execution_date=20220701T092515, start_date=20220701T092516, end_date=20220701T092516
+[2022-07-01 09:25:16,211] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-01 09:25:16,235] {local_task_job.py:264} INFO - 5 downstream tasks scheduled from follow-on schedule check

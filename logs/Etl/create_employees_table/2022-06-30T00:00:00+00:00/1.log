@@ -1,0 +1,35 @@
+[2022-07-01 07:50:56,747] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: Etl.create_employees_table scheduled__2022-06-30T00:00:00+00:00 [queued]>
+[2022-07-01 07:50:56,754] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: Etl.create_employees_table scheduled__2022-06-30T00:00:00+00:00 [queued]>
+[2022-07-01 07:50:56,754] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-01 07:50:56,754] {taskinstance.py:1250} INFO - Starting attempt 1 of 1
+[2022-07-01 07:50:56,754] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-01 07:50:56,760] {taskinstance.py:1270} INFO - Executing <Task(PostgresOperator): create_employees_table> on 2022-06-30 00:00:00+00:00
+[2022-07-01 07:50:56,764] {standard_task_runner.py:52} INFO - Started process 94 to run task
+[2022-07-01 07:50:56,766] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'Etl', 'create_employees_table', 'scheduled__2022-06-30T00:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/postgres_demo.py', '--cfg-path', '/tmp/tmp94njb57w', '--error-file', '/tmp/tmpr_rdc_eq']
+[2022-07-01 07:50:56,767] {standard_task_runner.py:80} INFO - Job 3: Subtask create_employees_table
+[2022-07-01 07:50:56,799] {logging_mixin.py:109} INFO - Running <TaskInstance: Etl.create_employees_table scheduled__2022-06-30T00:00:00+00:00 [running]> on host 354cfdc9682d
+[2022-07-01 07:50:56,833] {taskinstance.py:1448} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=Etl
+AIRFLOW_CTX_TASK_ID=create_employees_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-30T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-30T00:00:00+00:00
+[2022-07-01 07:50:56,850] {taskinstance.py:1774} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/operators/postgres.py", line 92, in execute
+    self.hook.run(self.sql, self.autocommit, parameters=self.parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/dbapi.py", line 198, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 86, in get_conn
+    conn = deepcopy(self.connection or self.get_connection(conn_id))
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 68, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 410, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `tutorial_pg_conn` isn't defined
+[2022-07-01 07:50:56,855] {taskinstance.py:1288} INFO - Marking task as FAILED. dag_id=Etl, task_id=create_employees_table, execution_date=20220630T000000, start_date=20220701T075056, end_date=20220701T075056
+[2022-07-01 07:50:56,869] {standard_task_runner.py:98} ERROR - Failed to execute job 3 for task create_employees_table (The conn_id `tutorial_pg_conn` isn't defined; 94)
+[2022-07-01 07:50:56,898] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-07-01 07:50:56,930] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
