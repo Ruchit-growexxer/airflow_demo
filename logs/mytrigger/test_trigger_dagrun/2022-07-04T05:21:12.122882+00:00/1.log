@@ -1,0 +1,24 @@
+[2022-07-04 05:21:13,177] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: mytrigger.test_trigger_dagrun manual__2022-07-04T05:21:12.122882+00:00 [queued]>
+[2022-07-04 05:21:13,182] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: mytrigger.test_trigger_dagrun manual__2022-07-04T05:21:12.122882+00:00 [queued]>
+[2022-07-04 05:21:13,182] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-04 05:21:13,182] {taskinstance.py:1250} INFO - Starting attempt 1 of 1
+[2022-07-04 05:21:13,182] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-04 05:21:13,188] {taskinstance.py:1270} INFO - Executing <Task(TriggerDagRunOperator): test_trigger_dagrun> on 2022-07-04 05:21:12.122882+00:00
+[2022-07-04 05:21:13,191] {standard_task_runner.py:52} INFO - Started process 322 to run task
+[2022-07-04 05:21:13,194] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'mytrigger', 'test_trigger_dagrun', 'manual__2022-07-04T05:21:12.122882+00:00', '--job-id', '51', '--raw', '--subdir', 'DAGS_FOLDER/demo.py', '--cfg-path', '/tmp/tmpwmw5rtaq', '--error-file', '/tmp/tmpel38wk0l']
+[2022-07-04 05:21:13,194] {standard_task_runner.py:80} INFO - Job 51: Subtask test_trigger_dagrun
+[2022-07-04 05:21:13,225] {logging_mixin.py:109} INFO - Running <TaskInstance: mytrigger.test_trigger_dagrun manual__2022-07-04T05:21:12.122882+00:00 [running]> on host 1936d03cc531
+[2022-07-04 05:21:13,257] {taskinstance.py:1448} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=mytrigger
+AIRFLOW_CTX_TASK_ID=test_trigger_dagrun
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-04T05:21:12.122882+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-04T05:21:12.122882+00:00
+[2022-07-04 05:21:13,878] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/api/common/trigger_dag.py:90: DeprecationWarning: Calling `DAG.create_dagrun()` without an explicit data interval is deprecated
+  dag_hash=dag_bag.dags_hash.get(dag_id),
+
+[2022-07-04 05:21:13,905] {taskinstance.py:1288} INFO - Marking task as SUCCESS. dag_id=mytrigger, task_id=test_trigger_dagrun, execution_date=20220704T052112, start_date=20220704T052113, end_date=20220704T052113
+[2022-07-04 05:21:13,928] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-04 05:21:13,965] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,1060 @@
+[2022-07-04 11:06:19,591] {processor.py:163} INFO - Started process (PID=32) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 11:06:19,592] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 11:06:19,592] {logging_mixin.py:109} INFO - [2022-07-04 11:06:19,592] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 11:06:19,596] {logging_mixin.py:109} INFO - [2022-07-04 11:06:19,595] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 4, in <module>
+    import xmltodict
+ModuleNotFoundError: No module named 'xmltodict'
+[2022-07-04 11:06:19,596] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 11:06:19,617] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.029 seconds
+[2022-07-04 11:06:50,085] {processor.py:163} INFO - Started process (PID=351) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 11:06:50,086] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 11:06:50,087] {logging_mixin.py:109} INFO - [2022-07-04 11:06:50,087] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 11:06:50,088] {logging_mixin.py:109} INFO - [2022-07-04 11:06:50,088] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 4, in <module>
+    import xmltodict
+ModuleNotFoundError: No module named 'xmltodict'
+[2022-07-04 11:06:50,088] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 11:06:50,102] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.019 seconds
+[2022-07-04 11:07:20,561] {processor.py:163} INFO - Started process (PID=405) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 11:07:20,561] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 11:07:20,562] {logging_mixin.py:109} INFO - [2022-07-04 11:07:20,562] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 11:07:20,564] {logging_mixin.py:109} INFO - [2022-07-04 11:07:20,564] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 4, in <module>
+    import xmltodict
+ModuleNotFoundError: No module named 'xmltodict'
+[2022-07-04 11:07:20,564] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 11:07:20,579] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.021 seconds
+[2022-07-04 11:07:50,824] {processor.py:163} INFO - Started process (PID=469) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 11:07:50,826] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 11:07:50,826] {logging_mixin.py:109} INFO - [2022-07-04 11:07:50,826] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 11:07:50,828] {logging_mixin.py:109} INFO - [2022-07-04 11:07:50,827] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 4, in <module>
+    import xmltodict
+ModuleNotFoundError: No module named 'xmltodict'
+[2022-07-04 11:07:50,828] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 11:07:50,842] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.019 seconds
+[2022-07-04 11:08:21,007] {processor.py:163} INFO - Started process (PID=533) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 11:08:21,008] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 11:08:21,008] {logging_mixin.py:109} INFO - [2022-07-04 11:08:21,008] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 11:08:21,010] {logging_mixin.py:109} INFO - [2022-07-04 11:08:21,010] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 4, in <module>
+    import xmltodict
+ModuleNotFoundError: No module named 'xmltodict'
+[2022-07-04 11:08:21,011] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 11:08:21,023] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.018 seconds
+[2022-07-04 11:08:51,373] {processor.py:163} INFO - Started process (PID=587) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 11:08:51,375] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 11:08:51,376] {logging_mixin.py:109} INFO - [2022-07-04 11:08:51,376] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 11:08:51,378] {logging_mixin.py:109} INFO - [2022-07-04 11:08:51,378] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 4, in <module>
+    import xmltodict
+ModuleNotFoundError: No module named 'xmltodict'
+[2022-07-04 11:08:51,379] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 11:08:51,396] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.027 seconds
+[2022-07-04 11:09:20,856] {processor.py:163} INFO - Started process (PID=650) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 11:09:20,857] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 11:09:20,857] {logging_mixin.py:109} INFO - [2022-07-04 11:09:20,857] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 11:09:20,857] {logging_mixin.py:109} INFO - [2022-07-04 11:09:20,857] {dagbag.py:308} INFO - File /opt/airflow/dags/podcast.py assumed to contain no DAGs. Skipping.
+[2022-07-04 11:09:20,857] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 11:09:20,865] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.012 seconds
+[2022-07-04 11:09:51,196] {processor.py:163} INFO - Started process (PID=705) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 11:09:51,197] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 11:09:51,197] {logging_mixin.py:109} INFO - [2022-07-04 11:09:51,197] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 11:09:51,197] {logging_mixin.py:109} INFO - [2022-07-04 11:09:51,197] {dagbag.py:308} INFO - File /opt/airflow/dags/podcast.py assumed to contain no DAGs. Skipping.
+[2022-07-04 11:09:51,197] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 11:09:51,205] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.011 seconds
+[2022-07-04 11:10:21,665] {processor.py:163} INFO - Started process (PID=767) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 11:10:21,667] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 11:10:21,667] {logging_mixin.py:109} INFO - [2022-07-04 11:10:21,667] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 11:10:21,668] {logging_mixin.py:109} INFO - [2022-07-04 11:10:21,667] {dagbag.py:308} INFO - File /opt/airflow/dags/podcast.py assumed to contain no DAGs. Skipping.
+[2022-07-04 11:10:21,668] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 11:10:21,676] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.014 seconds
+[2022-07-04 11:10:51,991] {processor.py:163} INFO - Started process (PID=821) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 11:10:51,992] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 11:10:51,993] {logging_mixin.py:109} INFO - [2022-07-04 11:10:51,992] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 11:10:51,993] {logging_mixin.py:109} INFO - [2022-07-04 11:10:51,993] {dagbag.py:308} INFO - File /opt/airflow/dags/podcast.py assumed to contain no DAGs. Skipping.
+[2022-07-04 11:10:51,993] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 11:10:52,004] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.015 seconds
+[2022-07-04 13:35:23,041] {processor.py:163} INFO - Started process (PID=31) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:35:23,042] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:35:23,042] {logging_mixin.py:109} INFO - [2022-07-04 13:35:23,042] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:35:23,048] {logging_mixin.py:109} INFO - [2022-07-04 13:35:23,047] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:35:23,048] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:35:23,070] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.032 seconds
+[2022-07-04 13:35:53,246] {processor.py:163} INFO - Started process (PID=352) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:35:53,247] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:35:53,248] {logging_mixin.py:109} INFO - [2022-07-04 13:35:53,248] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:35:53,252] {logging_mixin.py:109} INFO - [2022-07-04 13:35:53,251] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:35:53,252] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:35:53,266] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.024 seconds
+[2022-07-04 13:36:08,533] {processor.py:163} INFO - Started process (PID=379) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:36:08,533] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:36:08,534] {logging_mixin.py:109} INFO - [2022-07-04 13:36:08,534] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:36:08,536] {logging_mixin.py:109} INFO - [2022-07-04 13:36:08,536] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:36:08,537] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:36:08,550] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.019 seconds
+[2022-07-04 13:36:38,771] {processor.py:163} INFO - Started process (PID=439) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:36:38,772] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:36:38,772] {logging_mixin.py:109} INFO - [2022-07-04 13:36:38,772] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:36:38,774] {logging_mixin.py:109} INFO - [2022-07-04 13:36:38,774] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:36:38,774] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:36:38,789] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.019 seconds
+[2022-07-04 13:37:08,994] {processor.py:163} INFO - Started process (PID=493) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:37:08,994] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:37:08,995] {logging_mixin.py:109} INFO - [2022-07-04 13:37:08,995] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:37:08,997] {logging_mixin.py:109} INFO - [2022-07-04 13:37:08,997] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:37:08,997] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:37:09,009] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.017 seconds
+[2022-07-04 13:37:39,918] {processor.py:163} INFO - Started process (PID=554) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:37:39,920] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:37:39,920] {logging_mixin.py:109} INFO - [2022-07-04 13:37:39,920] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:37:39,923] {logging_mixin.py:109} INFO - [2022-07-04 13:37:39,922] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:37:39,923] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:37:39,935] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.019 seconds
+[2022-07-04 13:38:10,561] {processor.py:163} INFO - Started process (PID=616) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:38:10,568] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:38:10,568] {logging_mixin.py:109} INFO - [2022-07-04 13:38:10,568] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:38:10,572] {logging_mixin.py:109} INFO - [2022-07-04 13:38:10,572] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:38:10,573] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:38:10,591] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.033 seconds
+[2022-07-04 13:38:40,856] {processor.py:163} INFO - Started process (PID=669) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:38:40,857] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:38:40,857] {logging_mixin.py:109} INFO - [2022-07-04 13:38:40,857] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:38:40,860] {logging_mixin.py:109} INFO - [2022-07-04 13:38:40,859] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:38:40,860] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:38:40,872] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.017 seconds
+[2022-07-04 13:39:11,133] {processor.py:163} INFO - Started process (PID=732) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:39:11,134] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:39:11,134] {logging_mixin.py:109} INFO - [2022-07-04 13:39:11,134] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:39:11,138] {logging_mixin.py:109} INFO - [2022-07-04 13:39:11,137] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:39:11,139] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:39:11,154] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.023 seconds
+[2022-07-04 13:39:41,294] {processor.py:163} INFO - Started process (PID=785) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:39:41,295] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:39:41,295] {logging_mixin.py:109} INFO - [2022-07-04 13:39:41,295] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:39:41,299] {logging_mixin.py:109} INFO - [2022-07-04 13:39:41,299] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:39:41,300] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:39:41,313] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.020 seconds
+[2022-07-04 13:40:11,593] {processor.py:163} INFO - Started process (PID=847) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:40:11,601] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:40:11,602] {logging_mixin.py:109} INFO - [2022-07-04 13:40:11,602] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:40:11,607] {logging_mixin.py:109} INFO - [2022-07-04 13:40:11,606] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:40:11,608] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:40:11,628] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.039 seconds
+[2022-07-04 13:40:41,847] {processor.py:163} INFO - Started process (PID=908) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:40:41,848] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:40:41,848] {logging_mixin.py:109} INFO - [2022-07-04 13:40:41,848] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:40:41,850] {logging_mixin.py:109} INFO - [2022-07-04 13:40:41,850] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:40:41,850] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:40:41,862] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.016 seconds
+[2022-07-04 13:41:12,006] {processor.py:163} INFO - Started process (PID=963) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:41:12,008] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:41:12,009] {logging_mixin.py:109} INFO - [2022-07-04 13:41:12,009] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:41:12,014] {logging_mixin.py:109} INFO - [2022-07-04 13:41:12,013] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:41:12,015] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:41:12,030] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.028 seconds
+[2022-07-04 13:41:42,282] {processor.py:163} INFO - Started process (PID=1024) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:41:42,283] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:41:42,283] {logging_mixin.py:109} INFO - [2022-07-04 13:41:42,283] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:41:42,286] {logging_mixin.py:109} INFO - [2022-07-04 13:41:42,286] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:41:42,286] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:41:42,299] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.018 seconds
+[2022-07-04 13:42:12,562] {processor.py:163} INFO - Started process (PID=1077) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:42:12,564] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:42:12,565] {logging_mixin.py:109} INFO - [2022-07-04 13:42:12,565] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:42:12,571] {logging_mixin.py:109} INFO - [2022-07-04 13:42:12,570] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:42:12,571] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:42:12,585] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.028 seconds
+[2022-07-04 13:42:42,909] {processor.py:163} INFO - Started process (PID=1139) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:42:42,910] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:42:42,911] {logging_mixin.py:109} INFO - [2022-07-04 13:42:42,911] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:42:42,913] {logging_mixin.py:109} INFO - [2022-07-04 13:42:42,913] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:42:42,913] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:42:42,926] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.019 seconds
+[2022-07-04 13:43:13,072] {processor.py:163} INFO - Started process (PID=1193) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:43:13,074] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:43:13,074] {logging_mixin.py:109} INFO - [2022-07-04 13:43:13,074] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:43:13,079] {logging_mixin.py:109} INFO - [2022-07-04 13:43:13,078] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:43:13,080] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:43:13,094] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.026 seconds
+[2022-07-04 13:43:43,322] {processor.py:163} INFO - Started process (PID=1255) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:43:43,324] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:43:43,325] {logging_mixin.py:109} INFO - [2022-07-04 13:43:43,325] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:43:43,330] {logging_mixin.py:109} INFO - [2022-07-04 13:43:43,329] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:43:43,330] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:43:43,353] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.034 seconds
+[2022-07-04 13:44:13,556] {processor.py:163} INFO - Started process (PID=1319) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:44:13,557] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:44:13,557] {logging_mixin.py:109} INFO - [2022-07-04 13:44:13,557] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:44:13,559] {logging_mixin.py:109} INFO - [2022-07-04 13:44:13,559] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:44:13,560] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:44:13,572] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.018 seconds
+[2022-07-04 13:44:43,834] {processor.py:163} INFO - Started process (PID=1373) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:44:43,836] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:44:43,837] {logging_mixin.py:109} INFO - [2022-07-04 13:44:43,837] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:44:43,841] {logging_mixin.py:109} INFO - [2022-07-04 13:44:43,840] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:44:43,841] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:44:43,855] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.023 seconds
+[2022-07-04 13:45:14,116] {processor.py:163} INFO - Started process (PID=1435) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:45:14,118] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:45:14,119] {logging_mixin.py:109} INFO - [2022-07-04 13:45:14,119] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:45:14,124] {logging_mixin.py:109} INFO - [2022-07-04 13:45:14,123] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:45:14,124] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:45:14,136] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.024 seconds
+[2022-07-04 13:45:44,553] {processor.py:163} INFO - Started process (PID=1488) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:45:44,554] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:45:44,555] {logging_mixin.py:109} INFO - [2022-07-04 13:45:44,555] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:45:44,561] {logging_mixin.py:109} INFO - [2022-07-04 13:45:44,560] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:45:44,562] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:45:44,578] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.028 seconds
+[2022-07-04 13:46:14,722] {processor.py:163} INFO - Started process (PID=1550) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:46:14,723] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:46:14,723] {logging_mixin.py:109} INFO - [2022-07-04 13:46:14,723] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:46:14,726] {logging_mixin.py:109} INFO - [2022-07-04 13:46:14,726] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:46:14,727] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:46:14,741] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.020 seconds
+[2022-07-04 13:46:44,983] {processor.py:163} INFO - Started process (PID=1612) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:46:44,984] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:46:44,984] {logging_mixin.py:109} INFO - [2022-07-04 13:46:44,984] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:46:44,986] {logging_mixin.py:109} INFO - [2022-07-04 13:46:44,986] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:46:44,987] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:46:44,999] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.018 seconds
+[2022-07-04 13:47:15,308] {processor.py:163} INFO - Started process (PID=1666) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:47:15,309] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:47:15,310] {logging_mixin.py:109} INFO - [2022-07-04 13:47:15,310] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:47:15,316] {logging_mixin.py:109} INFO - [2022-07-04 13:47:15,315] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:47:15,316] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:47:15,332] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.029 seconds
+[2022-07-04 13:47:45,649] {processor.py:163} INFO - Started process (PID=1729) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:47:45,651] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:47:45,652] {logging_mixin.py:109} INFO - [2022-07-04 13:47:45,652] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:47:45,657] {logging_mixin.py:109} INFO - [2022-07-04 13:47:45,656] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:47:45,658] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:47:45,674] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.028 seconds
+[2022-07-04 13:48:15,928] {processor.py:163} INFO - Started process (PID=1783) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:48:15,930] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:48:15,930] {logging_mixin.py:109} INFO - [2022-07-04 13:48:15,930] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:48:15,934] {logging_mixin.py:109} INFO - [2022-07-04 13:48:15,933] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:48:15,934] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:48:15,973] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.048 seconds
+[2022-07-04 13:48:46,353] {processor.py:163} INFO - Started process (PID=1846) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 13:48:46,354] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 13:48:46,354] {logging_mixin.py:109} INFO - [2022-07-04 13:48:46,354] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 13:48:46,357] {logging_mixin.py:109} INFO - [2022-07-04 13:48:46,356] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 13:48:46,357] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 13:48:46,374] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.024 seconds
+[2022-07-04 14:06:08,322] {processor.py:163} INFO - Started process (PID=1874) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:06:08,323] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:06:08,323] {logging_mixin.py:109} INFO - [2022-07-04 14:06:08,323] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:06:08,327] {logging_mixin.py:109} INFO - [2022-07-04 14:06:08,326] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:06:08,327] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:06:08,345] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.025 seconds
+[2022-07-04 14:06:38,667] {processor.py:163} INFO - Started process (PID=1936) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:06:38,674] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:06:38,674] {logging_mixin.py:109} INFO - [2022-07-04 14:06:38,674] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:06:38,677] {logging_mixin.py:109} INFO - [2022-07-04 14:06:38,677] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:06:38,677] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:06:38,691] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.027 seconds
+[2022-07-04 14:07:09,311] {processor.py:163} INFO - Started process (PID=1989) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:07:09,312] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:07:09,312] {logging_mixin.py:109} INFO - [2022-07-04 14:07:09,312] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:07:09,315] {logging_mixin.py:109} INFO - [2022-07-04 14:07:09,314] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:07:09,315] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:07:09,329] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.019 seconds
+[2022-07-04 14:07:40,003] {processor.py:163} INFO - Started process (PID=2052) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:07:40,010] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:07:40,010] {logging_mixin.py:109} INFO - [2022-07-04 14:07:40,010] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:07:40,015] {logging_mixin.py:109} INFO - [2022-07-04 14:07:40,014] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:07:40,015] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:07:40,030] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.030 seconds
+[2022-07-04 14:08:10,481] {processor.py:163} INFO - Started process (PID=2114) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:08:10,488] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:08:10,489] {logging_mixin.py:109} INFO - [2022-07-04 14:08:10,489] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:08:10,492] {logging_mixin.py:109} INFO - [2022-07-04 14:08:10,491] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:08:10,492] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:08:10,510] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.031 seconds
+[2022-07-04 14:08:41,026] {processor.py:163} INFO - Started process (PID=2167) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:08:41,027] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:08:41,028] {logging_mixin.py:109} INFO - [2022-07-04 14:08:41,028] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:08:41,030] {logging_mixin.py:109} INFO - [2022-07-04 14:08:41,030] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:08:41,030] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:08:41,044] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.021 seconds
+[2022-07-04 14:09:11,586] {processor.py:163} INFO - Started process (PID=2229) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:09:11,587] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:09:11,587] {logging_mixin.py:109} INFO - [2022-07-04 14:09:11,587] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:09:11,590] {logging_mixin.py:109} INFO - [2022-07-04 14:09:11,589] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:09:11,590] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:09:11,603] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.020 seconds
+[2022-07-04 14:09:42,190] {processor.py:163} INFO - Started process (PID=2282) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:09:42,197] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:09:42,197] {logging_mixin.py:109} INFO - [2022-07-04 14:09:42,197] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:09:42,201] {logging_mixin.py:109} INFO - [2022-07-04 14:09:42,201] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:09:42,202] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:09:42,214] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.027 seconds
+[2022-07-04 14:10:12,878] {processor.py:163} INFO - Started process (PID=2344) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:10:12,879] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:10:12,879] {logging_mixin.py:109} INFO - [2022-07-04 14:10:12,879] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:10:12,882] {logging_mixin.py:109} INFO - [2022-07-04 14:10:12,881] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:10:12,882] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:10:12,894] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.018 seconds
+[2022-07-04 14:10:43,515] {processor.py:163} INFO - Started process (PID=2408) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:10:43,516] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:10:43,517] {logging_mixin.py:109} INFO - [2022-07-04 14:10:43,516] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:10:43,519] {logging_mixin.py:109} INFO - [2022-07-04 14:10:43,518] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:10:43,519] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:10:43,531] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.019 seconds
+[2022-07-04 14:11:14,016] {processor.py:163} INFO - Started process (PID=2461) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:11:14,017] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:11:14,017] {logging_mixin.py:109} INFO - [2022-07-04 14:11:14,017] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:11:14,019] {logging_mixin.py:109} INFO - [2022-07-04 14:11:14,019] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:11:14,019] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:11:14,031] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.017 seconds
+[2022-07-04 14:11:44,686] {processor.py:163} INFO - Started process (PID=2522) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:11:44,687] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:11:44,687] {logging_mixin.py:109} INFO - [2022-07-04 14:11:44,687] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:11:44,690] {logging_mixin.py:109} INFO - [2022-07-04 14:11:44,689] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:11:44,690] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:11:44,701] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.018 seconds
+[2022-07-04 14:12:15,245] {processor.py:163} INFO - Started process (PID=2584) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:12:15,246] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:12:15,246] {logging_mixin.py:109} INFO - [2022-07-04 14:12:15,246] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:12:15,248] {logging_mixin.py:109} INFO - [2022-07-04 14:12:15,248] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:12:15,248] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:12:15,262] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.019 seconds
+[2022-07-04 14:12:45,832] {processor.py:163} INFO - Started process (PID=2637) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:12:45,833] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:12:45,834] {logging_mixin.py:109} INFO - [2022-07-04 14:12:45,833] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:12:45,836] {logging_mixin.py:109} INFO - [2022-07-04 14:12:45,836] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:12:45,836] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:12:45,851] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.022 seconds
+[2022-07-04 14:13:16,249] {processor.py:163} INFO - Started process (PID=2700) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:13:16,251] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:13:16,251] {logging_mixin.py:109} INFO - [2022-07-04 14:13:16,251] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:13:16,254] {logging_mixin.py:109} INFO - [2022-07-04 14:13:16,254] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:13:16,255] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:13:16,267] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.021 seconds
+[2022-07-04 14:13:46,889] {processor.py:163} INFO - Started process (PID=2755) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:13:46,896] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:13:46,896] {logging_mixin.py:109} INFO - [2022-07-04 14:13:46,896] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:13:46,899] {logging_mixin.py:109} INFO - [2022-07-04 14:13:46,899] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:13:46,900] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:13:46,913] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.028 seconds
+[2022-07-04 14:14:17,822] {processor.py:163} INFO - Started process (PID=2818) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:14:17,823] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:14:17,823] {logging_mixin.py:109} INFO - [2022-07-04 14:14:17,823] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:14:17,826] {logging_mixin.py:109} INFO - [2022-07-04 14:14:17,825] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:14:17,826] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:14:17,839] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.020 seconds
+[2022-07-04 14:14:48,276] {processor.py:163} INFO - Started process (PID=2880) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:14:48,277] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:14:48,278] {logging_mixin.py:109} INFO - [2022-07-04 14:14:48,278] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:14:48,280] {logging_mixin.py:109} INFO - [2022-07-04 14:14:48,280] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:14:48,280] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:14:48,298] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.024 seconds
+[2022-07-04 14:15:19,123] {processor.py:163} INFO - Started process (PID=2933) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:15:19,124] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:15:19,124] {logging_mixin.py:109} INFO - [2022-07-04 14:15:19,124] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:15:19,128] {logging_mixin.py:109} INFO - [2022-07-04 14:15:19,127] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:15:19,128] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:15:19,142] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.022 seconds
+[2022-07-04 14:15:49,498] {processor.py:163} INFO - Started process (PID=2995) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:15:49,500] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:15:49,500] {logging_mixin.py:109} INFO - [2022-07-04 14:15:49,500] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:15:49,502] {logging_mixin.py:109} INFO - [2022-07-04 14:15:49,502] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:15:49,503] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:15:49,516] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.019 seconds
+[2022-07-04 14:16:20,089] {processor.py:163} INFO - Started process (PID=3049) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:16:20,089] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:16:20,090] {logging_mixin.py:109} INFO - [2022-07-04 14:16:20,090] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:16:20,093] {logging_mixin.py:109} INFO - [2022-07-04 14:16:20,092] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:16:20,093] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:16:20,111] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.025 seconds
+[2022-07-04 14:16:51,055] {processor.py:163} INFO - Started process (PID=3112) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:16:51,056] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:16:51,057] {logging_mixin.py:109} INFO - [2022-07-04 14:16:51,057] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:16:51,059] {logging_mixin.py:109} INFO - [2022-07-04 14:16:51,059] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:16:51,060] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:16:51,072] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.018 seconds
+[2022-07-04 14:17:21,228] {processor.py:163} INFO - Started process (PID=3174) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:17:21,229] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:17:21,230] {logging_mixin.py:109} INFO - [2022-07-04 14:17:21,230] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:17:21,237] {logging_mixin.py:109} INFO - [2022-07-04 14:17:21,235] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:17:21,237] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:17:21,266] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.044 seconds
+[2022-07-04 14:17:52,250] {processor.py:163} INFO - Started process (PID=3228) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:17:52,257] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:17:52,257] {logging_mixin.py:109} INFO - [2022-07-04 14:17:52,257] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:17:52,260] {logging_mixin.py:109} INFO - [2022-07-04 14:17:52,259] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:17:52,260] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:17:52,273] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.025 seconds
+[2022-07-04 14:18:22,553] {processor.py:163} INFO - Started process (PID=3290) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:18:22,554] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:18:22,554] {logging_mixin.py:109} INFO - [2022-07-04 14:18:22,554] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:18:22,557] {logging_mixin.py:109} INFO - [2022-07-04 14:18:22,556] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:18:22,557] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:18:22,570] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.019 seconds
+[2022-07-04 14:18:53,206] {processor.py:163} INFO - Started process (PID=3343) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:18:53,207] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:18:53,207] {logging_mixin.py:109} INFO - [2022-07-04 14:18:53,207] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:18:53,209] {logging_mixin.py:109} INFO - [2022-07-04 14:18:53,209] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:18:53,209] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:18:53,222] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.017 seconds
+[2022-07-04 14:19:23,951] {processor.py:163} INFO - Started process (PID=3407) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:19:23,952] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:19:23,952] {logging_mixin.py:109} INFO - [2022-07-04 14:19:23,952] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:19:23,954] {logging_mixin.py:109} INFO - [2022-07-04 14:19:23,954] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:19:23,955] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:19:23,967] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.017 seconds
+[2022-07-04 14:19:54,404] {processor.py:163} INFO - Started process (PID=3470) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:19:54,405] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:19:54,406] {logging_mixin.py:109} INFO - [2022-07-04 14:19:54,406] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:19:54,408] {logging_mixin.py:109} INFO - [2022-07-04 14:19:54,407] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:19:54,408] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:19:54,425] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.022 seconds
+[2022-07-04 14:20:25,398] {processor.py:163} INFO - Started process (PID=3523) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:20:25,400] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:20:25,400] {logging_mixin.py:109} INFO - [2022-07-04 14:20:25,400] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:20:25,403] {logging_mixin.py:109} INFO - [2022-07-04 14:20:25,402] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:20:25,403] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:20:25,416] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.020 seconds
+[2022-07-04 14:20:55,909] {processor.py:163} INFO - Started process (PID=3586) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:20:55,910] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:20:55,910] {logging_mixin.py:109} INFO - [2022-07-04 14:20:55,910] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:20:55,913] {logging_mixin.py:109} INFO - [2022-07-04 14:20:55,912] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:20:55,913] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:20:55,924] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.017 seconds
+[2022-07-04 14:21:26,265] {processor.py:163} INFO - Started process (PID=3639) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:21:26,267] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:21:26,267] {logging_mixin.py:109} INFO - [2022-07-04 14:21:26,267] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:21:26,270] {logging_mixin.py:109} INFO - [2022-07-04 14:21:26,269] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:21:26,270] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:21:26,282] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.019 seconds
+[2022-07-04 14:21:56,981] {processor.py:163} INFO - Started process (PID=3703) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:21:56,986] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:21:56,987] {logging_mixin.py:109} INFO - [2022-07-04 14:21:56,987] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:21:56,989] {logging_mixin.py:109} INFO - [2022-07-04 14:21:56,989] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:21:56,989] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:21:57,005] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.025 seconds
+[2022-07-04 14:22:27,764] {processor.py:163} INFO - Started process (PID=3765) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:22:27,766] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:22:27,766] {logging_mixin.py:109} INFO - [2022-07-04 14:22:27,766] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:22:27,769] {logging_mixin.py:109} INFO - [2022-07-04 14:22:27,769] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:22:27,769] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:22:27,783] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.021 seconds
+[2022-07-04 14:22:58,577] {processor.py:163} INFO - Started process (PID=3818) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:22:58,578] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:22:58,578] {logging_mixin.py:109} INFO - [2022-07-04 14:22:58,578] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:22:58,581] {logging_mixin.py:109} INFO - [2022-07-04 14:22:58,581] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:22:58,581] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:22:58,593] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.019 seconds
+[2022-07-04 14:23:29,132] {processor.py:163} INFO - Started process (PID=3881) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:23:29,134] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:23:29,134] {logging_mixin.py:109} INFO - [2022-07-04 14:23:29,134] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:23:29,138] {logging_mixin.py:109} INFO - [2022-07-04 14:23:29,137] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:23:29,138] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:23:29,216] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.085 seconds
+[2022-07-04 14:23:59,663] {processor.py:163} INFO - Started process (PID=3934) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:23:59,665] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:23:59,665] {logging_mixin.py:109} INFO - [2022-07-04 14:23:59,665] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:23:59,668] {logging_mixin.py:109} INFO - [2022-07-04 14:23:59,667] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:23:59,668] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:23:59,756] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.095 seconds
+[2022-07-04 14:24:30,376] {processor.py:163} INFO - Started process (PID=3997) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:24:30,378] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:24:30,378] {logging_mixin.py:109} INFO - [2022-07-04 14:24:30,378] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:24:30,381] {logging_mixin.py:109} INFO - [2022-07-04 14:24:30,380] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:24:30,381] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:24:30,393] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.019 seconds
+[2022-07-04 14:25:00,742] {processor.py:163} INFO - Started process (PID=4059) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:25:00,743] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:25:00,743] {logging_mixin.py:109} INFO - [2022-07-04 14:25:00,743] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:25:00,746] {logging_mixin.py:109} INFO - [2022-07-04 14:25:00,745] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:25:00,746] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:25:00,762] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.022 seconds
+[2022-07-04 14:25:31,104] {processor.py:163} INFO - Started process (PID=4114) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:25:31,105] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:25:31,105] {logging_mixin.py:109} INFO - [2022-07-04 14:25:31,105] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:25:31,107] {logging_mixin.py:109} INFO - [2022-07-04 14:25:31,107] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:25:31,108] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:25:31,121] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.019 seconds
+[2022-07-04 14:26:01,490] {processor.py:163} INFO - Started process (PID=4178) to work on /opt/airflow/dags/podcast.py
+[2022-07-04 14:26:01,491] {processor.py:642} INFO - Processing file /opt/airflow/dags/podcast.py for tasks to queue
+[2022-07-04 14:26:01,491] {logging_mixin.py:109} INFO - [2022-07-04 14:26:01,491] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podcast.py
+[2022-07-04 14:26:01,494] {logging_mixin.py:109} INFO - [2022-07-04 14:26:01,493] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/podcast.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/podcast.py", line 5, in <module>
+    from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
+ImportError: cannot import name 'StageToRedshiftOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-04 14:26:01,494] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podcast.py
+[2022-07-04 14:26:01,508] {processor.py:171} INFO - Processing /opt/airflow/dags/podcast.py took 0.020 seconds

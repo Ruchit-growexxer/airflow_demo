@@ -1,0 +1,224 @@
+[2022-07-04 10:17:55,937] {processor.py:163} INFO - Started process (PID=31671) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:17:55,938] {processor.py:642} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-07-04 10:17:55,938] {logging_mixin.py:109} INFO - [2022-07-04 10:17:55,938] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:17:55,951] {logging_mixin.py:109} INFO - [2022-07-04 10:17:55,950] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/forex_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 6, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-07-04 10:17:55,951] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:17:55,962] {processor.py:171} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.027 seconds
+[2022-07-04 10:18:26,605] {processor.py:163} INFO - Started process (PID=31734) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:18:26,606] {processor.py:642} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-07-04 10:18:26,607] {logging_mixin.py:109} INFO - [2022-07-04 10:18:26,606] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:18:26,614] {logging_mixin.py:109} INFO - [2022-07-04 10:18:26,614] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/forex_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 6, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-07-04 10:18:26,614] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:18:26,628] {processor.py:171} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.025 seconds
+[2022-07-04 10:18:57,014] {processor.py:163} INFO - Started process (PID=31788) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:18:57,016] {processor.py:642} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-07-04 10:18:57,017] {logging_mixin.py:109} INFO - [2022-07-04 10:18:57,016] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:18:57,028] {logging_mixin.py:109} INFO - [2022-07-04 10:18:57,028] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/forex_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 6, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-07-04 10:18:57,029] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:18:57,039] {processor.py:171} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.030 seconds
+[2022-07-04 10:19:27,400] {processor.py:163} INFO - Started process (PID=31850) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:19:27,401] {processor.py:642} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-07-04 10:19:27,401] {logging_mixin.py:109} INFO - [2022-07-04 10:19:27,401] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:19:27,408] {logging_mixin.py:109} INFO - [2022-07-04 10:19:27,407] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/forex_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 6, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-07-04 10:19:27,408] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:19:27,421] {processor.py:171} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.022 seconds
+[2022-07-04 10:19:57,681] {processor.py:163} INFO - Started process (PID=31912) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:19:57,682] {processor.py:642} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-07-04 10:19:57,682] {logging_mixin.py:109} INFO - [2022-07-04 10:19:57,682] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:19:57,695] {logging_mixin.py:109} INFO - [2022-07-04 10:19:57,695] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/forex_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 6, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-07-04 10:19:57,695] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:19:57,711] {processor.py:171} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.031 seconds
+[2022-07-04 10:20:28,077] {processor.py:163} INFO - Started process (PID=31966) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:20:28,080] {processor.py:642} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-07-04 10:20:28,080] {logging_mixin.py:109} INFO - [2022-07-04 10:20:28,080] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:20:28,089] {logging_mixin.py:109} INFO - [2022-07-04 10:20:28,089] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/forex_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 6, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-07-04 10:20:28,089] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:20:28,101] {processor.py:171} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.025 seconds
+[2022-07-04 10:20:58,633] {processor.py:163} INFO - Started process (PID=32029) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:20:58,635] {processor.py:642} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-07-04 10:20:58,636] {logging_mixin.py:109} INFO - [2022-07-04 10:20:58,636] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:20:58,648] {logging_mixin.py:109} INFO - [2022-07-04 10:20:58,648] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/forex_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 6, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-07-04 10:20:58,649] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:20:58,662] {processor.py:171} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.034 seconds
+[2022-07-04 10:21:28,981] {processor.py:163} INFO - Started process (PID=32084) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:21:28,982] {processor.py:642} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-07-04 10:21:28,983] {logging_mixin.py:109} INFO - [2022-07-04 10:21:28,983] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:21:28,995] {logging_mixin.py:109} INFO - [2022-07-04 10:21:28,994] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/forex_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 6, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-07-04 10:21:28,995] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:21:29,007] {processor.py:171} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.031 seconds
+[2022-07-04 10:21:59,358] {processor.py:163} INFO - Started process (PID=32146) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:21:59,365] {processor.py:642} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-07-04 10:21:59,366] {logging_mixin.py:109} INFO - [2022-07-04 10:21:59,366] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:21:59,379] {logging_mixin.py:109} INFO - [2022-07-04 10:21:59,379] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/forex_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 6, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-07-04 10:21:59,379] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 10:21:59,390] {processor.py:171} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.035 seconds
+[2022-07-04 11:06:45,014] {processor.py:163} INFO - Started process (PID=341) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 11:06:45,016] {processor.py:642} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-07-04 11:06:45,016] {logging_mixin.py:109} INFO - [2022-07-04 11:06:45,016] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 11:06:45,030] {logging_mixin.py:109} INFO - [2022-07-04 11:06:45,030] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/forex_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 6, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-07-04 11:06:45,030] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 11:06:45,045] {processor.py:171} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.032 seconds
+[2022-07-04 11:07:15,519] {processor.py:163} INFO - Started process (PID=404) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 11:07:15,520] {processor.py:642} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-07-04 11:07:15,520] {logging_mixin.py:109} INFO - [2022-07-04 11:07:15,520] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 11:07:15,531] {logging_mixin.py:109} INFO - [2022-07-04 11:07:15,531] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/forex_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 6, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-07-04 11:07:15,532] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 11:07:15,543] {processor.py:171} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.026 seconds
+[2022-07-04 11:07:45,800] {processor.py:163} INFO - Started process (PID=468) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 11:07:45,802] {processor.py:642} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-07-04 11:07:45,802] {logging_mixin.py:109} INFO - [2022-07-04 11:07:45,802] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 11:07:45,815] {logging_mixin.py:109} INFO - [2022-07-04 11:07:45,814] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/forex_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 6, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-07-04 11:07:45,815] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 11:07:45,828] {processor.py:171} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.030 seconds
+[2022-07-04 11:08:15,976] {processor.py:163} INFO - Started process (PID=523) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 11:08:15,977] {processor.py:642} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-07-04 11:08:15,977] {logging_mixin.py:109} INFO - [2022-07-04 11:08:15,977] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 11:08:15,984] {logging_mixin.py:109} INFO - [2022-07-04 11:08:15,983] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/forex_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 6, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-07-04 11:08:15,984] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 11:08:15,995] {processor.py:171} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.021 seconds
+[2022-07-04 11:08:46,345] {processor.py:163} INFO - Started process (PID=586) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 11:08:46,345] {processor.py:642} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-07-04 11:08:46,346] {logging_mixin.py:109} INFO - [2022-07-04 11:08:46,346] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 11:08:46,352] {logging_mixin.py:109} INFO - [2022-07-04 11:08:46,351] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/forex_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 6, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-07-04 11:08:46,352] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 11:08:46,362] {processor.py:171} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.019 seconds
+[2022-07-04 11:09:16,828] {processor.py:163} INFO - Started process (PID=640) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 11:09:16,829] {processor.py:642} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-07-04 11:09:16,829] {logging_mixin.py:109} INFO - [2022-07-04 11:09:16,829] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 11:09:16,837] {logging_mixin.py:109} INFO - [2022-07-04 11:09:16,837] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/forex_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 6, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-07-04 11:09:16,837] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 11:09:16,851] {processor.py:171} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.025 seconds
+[2022-07-04 11:09:47,165] {processor.py:163} INFO - Started process (PID=704) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 11:09:47,165] {processor.py:642} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-07-04 11:09:47,166] {logging_mixin.py:109} INFO - [2022-07-04 11:09:47,166] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 11:09:47,173] {logging_mixin.py:109} INFO - [2022-07-04 11:09:47,173] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/forex_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 6, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-07-04 11:09:47,173] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-07-04 11:09:47,185] {processor.py:171} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.023 seconds
