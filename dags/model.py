@@ -1,9 +1,11 @@
+from xml.etree.ElementInclude import include
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.operators.python import BranchPythonOperator
 from datetime import datetime 
 from random import randint
 from airflow.operators.bash import BashOperator
+from airflow.models import DagBag
 
 
 
@@ -55,4 +57,4 @@ with DAG("my_dag",start_date=datetime(2022,7,1),schedule_interval="@daily",catch
 
     )
 
-    [training_model_A, training_model_B, training_model_C] >> choose_best_model >> [accurate, inaccurate]
+    [training_model_A, training_model_B, training_model_C] >> choose_best_model >> [accurate, inaccurate] 

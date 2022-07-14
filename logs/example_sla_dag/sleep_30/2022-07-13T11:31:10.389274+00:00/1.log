@@ -1,0 +1,23 @@
+[2022-07-13 11:31:31,546] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: example_sla_dag.sleep_30 manual__2022-07-13T11:31:10.389274+00:00 [queued]>
+[2022-07-13 11:31:31,553] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: example_sla_dag.sleep_30 manual__2022-07-13T11:31:10.389274+00:00 [queued]>
+[2022-07-13 11:31:31,553] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-13 11:31:31,553] {taskinstance.py:1250} INFO - Starting attempt 1 of 1
+[2022-07-13 11:31:31,553] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-13 11:31:31,559] {taskinstance.py:1270} INFO - Executing <Task(_PythonDecoratedOperator): sleep_30> on 2022-07-13 11:31:10.389274+00:00
+[2022-07-13 11:31:31,562] {standard_task_runner.py:52} INFO - Started process 4963 to run task
+[2022-07-13 11:31:31,564] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'example_sla_dag', 'sleep_30', 'manual__2022-07-13T11:31:10.389274+00:00', '--job-id', '21', '--raw', '--subdir', '/home/***/.local/lib/python3.7/site-packages/***/example_dags/example_sla_dag.py', '--cfg-path', '/tmp/tmp24lbd_58', '--error-file', '/tmp/tmpo0q3hjxv']
+[2022-07-13 11:31:31,565] {standard_task_runner.py:80} INFO - Job 21: Subtask sleep_30
+[2022-07-13 11:31:31,593] {logging_mixin.py:109} INFO - Running <TaskInstance: example_sla_dag.sleep_30 manual__2022-07-13T11:31:10.389274+00:00 [running]> on host 6e07f662a6b4
+[2022-07-13 11:31:31,620] {taskinstance.py:1448} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=email@example.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=example_sla_dag
+AIRFLOW_CTX_TASK_ID=sleep_30
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-13T11:31:10.389274+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-13T11:31:10.389274+00:00
+[2022-07-13 11:32:01,650] {python.py:175} INFO - Done. Returned value was: None
+[2022-07-13 11:32:01,666] {taskinstance.py:1288} INFO - Marking task as SUCCESS. dag_id=example_sla_dag, task_id=sleep_30, execution_date=20220713T113110, start_date=20220713T113131, end_date=20220713T113201
+[2022-07-13 11:32:01,690] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-13 11:32:01,709] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

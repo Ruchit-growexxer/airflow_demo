@@ -1,0 +1,410 @@
+[2022-07-10 12:44:54,478] {processor.py:163} INFO - Started process (PID=38) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:44:54,478] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:44:54,479] {logging_mixin.py:109} INFO - [2022-07-10 12:44:54,479] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:44:54,493] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:44:54,509] {logging_mixin.py:109} INFO - [2022-07-10 12:44:54,509] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:44:54,525] {logging_mixin.py:109} INFO - [2022-07-10 12:44:54,525] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-09T00:00:00+00:00
+[2022-07-10 12:44:54,534] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.058 seconds
+[2022-07-10 12:45:25,059] {processor.py:163} INFO - Started process (PID=123) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:45:25,059] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:45:25,059] {logging_mixin.py:109} INFO - [2022-07-10 12:45:25,059] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:45:25,070] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:45:25,081] {logging_mixin.py:109} INFO - [2022-07-10 12:45:25,081] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:45:25,091] {logging_mixin.py:109} INFO - [2022-07-10 12:45:25,091] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:45:25,096] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.039 seconds
+[2022-07-10 12:45:56,200] {processor.py:163} INFO - Started process (PID=203) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:45:56,200] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:45:56,201] {logging_mixin.py:109} INFO - [2022-07-10 12:45:56,201] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:45:56,213] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:45:56,227] {logging_mixin.py:109} INFO - [2022-07-10 12:45:56,226] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:45:56,239] {logging_mixin.py:109} INFO - [2022-07-10 12:45:56,239] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:45:56,247] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.049 seconds
+[2022-07-10 12:46:27,128] {processor.py:163} INFO - Started process (PID=258) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:46:27,129] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:46:27,129] {logging_mixin.py:109} INFO - [2022-07-10 12:46:27,129] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:46:27,140] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:46:27,152] {logging_mixin.py:109} INFO - [2022-07-10 12:46:27,152] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:46:27,163] {logging_mixin.py:109} INFO - [2022-07-10 12:46:27,163] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:46:27,168] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.042 seconds
+[2022-07-10 12:46:57,849] {processor.py:163} INFO - Started process (PID=330) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:46:57,850] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:46:57,850] {logging_mixin.py:109} INFO - [2022-07-10 12:46:57,850] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:46:57,861] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:46:57,873] {logging_mixin.py:109} INFO - [2022-07-10 12:46:57,872] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:46:57,883] {logging_mixin.py:109} INFO - [2022-07-10 12:46:57,883] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:46:57,889] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.042 seconds
+[2022-07-10 12:47:28,714] {processor.py:163} INFO - Started process (PID=410) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:47:28,714] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:47:28,715] {logging_mixin.py:109} INFO - [2022-07-10 12:47:28,715] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:47:28,726] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:47:28,737] {logging_mixin.py:109} INFO - [2022-07-10 12:47:28,737] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:47:28,748] {logging_mixin.py:109} INFO - [2022-07-10 12:47:28,748] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:47:28,753] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.041 seconds
+[2022-07-10 12:47:59,346] {processor.py:163} INFO - Started process (PID=466) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:47:59,346] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:47:59,347] {logging_mixin.py:109} INFO - [2022-07-10 12:47:59,347] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:47:59,358] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:47:59,370] {logging_mixin.py:109} INFO - [2022-07-10 12:47:59,370] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:47:59,381] {logging_mixin.py:109} INFO - [2022-07-10 12:47:59,381] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:47:59,386] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.042 seconds
+[2022-07-10 12:48:30,256] {processor.py:163} INFO - Started process (PID=538) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:48:30,257] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:48:30,257] {logging_mixin.py:109} INFO - [2022-07-10 12:48:30,257] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:48:30,269] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:48:30,280] {logging_mixin.py:109} INFO - [2022-07-10 12:48:30,280] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:48:30,292] {logging_mixin.py:109} INFO - [2022-07-10 12:48:30,292] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:48:30,298] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.044 seconds
+[2022-07-10 12:49:01,167] {processor.py:163} INFO - Started process (PID=616) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:49:01,168] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:49:01,168] {logging_mixin.py:109} INFO - [2022-07-10 12:49:01,168] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:49:01,179] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:49:01,192] {logging_mixin.py:109} INFO - [2022-07-10 12:49:01,192] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:49:01,205] {logging_mixin.py:109} INFO - [2022-07-10 12:49:01,205] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:49:01,211] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.045 seconds
+[2022-07-10 12:49:31,780] {processor.py:163} INFO - Started process (PID=680) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:49:31,781] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:49:31,781] {logging_mixin.py:109} INFO - [2022-07-10 12:49:31,781] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:49:31,792] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:49:31,805] {logging_mixin.py:109} INFO - [2022-07-10 12:49:31,805] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:49:31,817] {logging_mixin.py:109} INFO - [2022-07-10 12:49:31,817] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:49:31,822] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.044 seconds
+[2022-07-10 12:50:02,668] {processor.py:163} INFO - Started process (PID=742) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:50:02,669] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:50:02,669] {logging_mixin.py:109} INFO - [2022-07-10 12:50:02,669] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:50:02,679] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:50:02,691] {logging_mixin.py:109} INFO - [2022-07-10 12:50:02,691] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:50:02,702] {logging_mixin.py:109} INFO - [2022-07-10 12:50:02,702] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:50:02,708] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.041 seconds
+[2022-07-10 12:50:33,509] {processor.py:163} INFO - Started process (PID=821) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:50:33,510] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:50:33,510] {logging_mixin.py:109} INFO - [2022-07-10 12:50:33,510] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:50:33,520] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:50:33,532] {logging_mixin.py:109} INFO - [2022-07-10 12:50:33,532] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:50:33,542] {logging_mixin.py:109} INFO - [2022-07-10 12:50:33,542] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:50:33,547] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.040 seconds
+[2022-07-10 12:51:04,078] {processor.py:163} INFO - Started process (PID=885) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:51:04,078] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:51:04,079] {logging_mixin.py:109} INFO - [2022-07-10 12:51:04,079] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:51:04,090] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:51:04,108] {logging_mixin.py:109} INFO - [2022-07-10 12:51:04,107] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:51:04,125] {logging_mixin.py:109} INFO - [2022-07-10 12:51:04,124] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:51:04,131] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.055 seconds
+[2022-07-10 12:51:34,821] {processor.py:163} INFO - Started process (PID=948) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:51:34,821] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:51:34,822] {logging_mixin.py:109} INFO - [2022-07-10 12:51:34,822] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:51:34,831] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:51:34,844] {logging_mixin.py:109} INFO - [2022-07-10 12:51:34,844] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:51:34,855] {logging_mixin.py:109} INFO - [2022-07-10 12:51:34,855] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:51:34,861] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.041 seconds
+[2022-07-10 12:52:05,604] {processor.py:163} INFO - Started process (PID=1026) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:52:05,605] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:52:05,605] {logging_mixin.py:109} INFO - [2022-07-10 12:52:05,605] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:52:05,615] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:52:05,627] {logging_mixin.py:109} INFO - [2022-07-10 12:52:05,627] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:52:05,638] {logging_mixin.py:109} INFO - [2022-07-10 12:52:05,638] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:52:05,643] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.040 seconds
+[2022-07-10 12:52:35,863] {processor.py:163} INFO - Started process (PID=1091) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:52:35,864] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:52:35,865] {logging_mixin.py:109} INFO - [2022-07-10 12:52:35,864] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:52:35,874] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:52:35,887] {logging_mixin.py:109} INFO - [2022-07-10 12:52:35,887] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:52:35,898] {logging_mixin.py:109} INFO - [2022-07-10 12:52:35,897] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:52:35,903] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.041 seconds
+[2022-07-10 12:53:06,574] {processor.py:163} INFO - Started process (PID=1154) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:53:06,575] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:53:06,575] {logging_mixin.py:109} INFO - [2022-07-10 12:53:06,575] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:53:06,585] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:53:06,597] {logging_mixin.py:109} INFO - [2022-07-10 12:53:06,596] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:53:06,608] {logging_mixin.py:109} INFO - [2022-07-10 12:53:06,607] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:53:06,612] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.040 seconds
+[2022-07-10 12:53:37,446] {processor.py:163} INFO - Started process (PID=1232) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:53:37,447] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:53:37,447] {logging_mixin.py:109} INFO - [2022-07-10 12:53:37,447] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:53:37,457] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:53:37,469] {logging_mixin.py:109} INFO - [2022-07-10 12:53:37,469] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:53:37,480] {logging_mixin.py:109} INFO - [2022-07-10 12:53:37,480] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:53:37,486] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.042 seconds
+[2022-07-10 12:54:08,007] {processor.py:163} INFO - Started process (PID=1296) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:54:08,008] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:54:08,008] {logging_mixin.py:109} INFO - [2022-07-10 12:54:08,008] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:54:08,018] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:54:08,030] {logging_mixin.py:109} INFO - [2022-07-10 12:54:08,030] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:54:08,041] {logging_mixin.py:109} INFO - [2022-07-10 12:54:08,041] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:54:08,046] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.040 seconds
+[2022-07-10 12:54:38,953] {processor.py:163} INFO - Started process (PID=1360) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:54:38,954] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:54:38,954] {logging_mixin.py:109} INFO - [2022-07-10 12:54:38,954] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:54:38,971] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:54:38,989] {logging_mixin.py:109} INFO - [2022-07-10 12:54:38,989] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:54:39,005] {logging_mixin.py:109} INFO - [2022-07-10 12:54:39,005] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:54:39,012] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.063 seconds
+[2022-07-10 12:55:10,045] {processor.py:163} INFO - Started process (PID=1439) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:55:10,046] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:55:10,047] {logging_mixin.py:109} INFO - [2022-07-10 12:55:10,047] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:55:10,063] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:55:10,079] {logging_mixin.py:109} INFO - [2022-07-10 12:55:10,079] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:55:10,094] {logging_mixin.py:109} INFO - [2022-07-10 12:55:10,093] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:55:10,100] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.057 seconds
+[2022-07-10 12:55:40,296] {processor.py:163} INFO - Started process (PID=1503) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:55:40,297] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:55:40,297] {logging_mixin.py:109} INFO - [2022-07-10 12:55:40,297] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:55:40,308] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:55:40,320] {logging_mixin.py:109} INFO - [2022-07-10 12:55:40,320] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:55:40,331] {logging_mixin.py:109} INFO - [2022-07-10 12:55:40,331] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:55:40,336] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.041 seconds
+[2022-07-10 12:56:11,134] {processor.py:163} INFO - Started process (PID=1565) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:56:11,134] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:56:11,135] {logging_mixin.py:109} INFO - [2022-07-10 12:56:11,135] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:56:11,146] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:56:11,165] {logging_mixin.py:109} INFO - [2022-07-10 12:56:11,165] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:56:11,186] {logging_mixin.py:109} INFO - [2022-07-10 12:56:11,186] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:56:11,193] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.061 seconds
+[2022-07-10 12:56:42,250] {processor.py:163} INFO - Started process (PID=1642) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:56:42,250] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:56:42,251] {logging_mixin.py:109} INFO - [2022-07-10 12:56:42,250] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:56:42,262] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:56:42,274] {logging_mixin.py:109} INFO - [2022-07-10 12:56:42,274] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:56:42,286] {logging_mixin.py:109} INFO - [2022-07-10 12:56:42,286] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:56:42,292] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.044 seconds
+[2022-07-10 12:57:12,897] {processor.py:163} INFO - Started process (PID=1707) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:57:12,897] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:57:12,898] {logging_mixin.py:109} INFO - [2022-07-10 12:57:12,898] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:57:12,909] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:57:12,923] {logging_mixin.py:109} INFO - [2022-07-10 12:57:12,923] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:57:12,936] {logging_mixin.py:109} INFO - [2022-07-10 12:57:12,936] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:57:12,941] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.046 seconds
+[2022-07-10 12:57:43,811] {processor.py:163} INFO - Started process (PID=1770) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:57:43,812] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:57:43,813] {logging_mixin.py:109} INFO - [2022-07-10 12:57:43,813] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:57:43,825] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:57:43,837] {logging_mixin.py:109} INFO - [2022-07-10 12:57:43,837] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:57:43,857] {logging_mixin.py:109} INFO - [2022-07-10 12:57:43,856] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:57:43,861] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.052 seconds
+[2022-07-10 12:58:13,884] {processor.py:163} INFO - Started process (PID=1840) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:58:13,884] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:58:13,885] {logging_mixin.py:109} INFO - [2022-07-10 12:58:13,885] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:58:13,895] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:58:13,907] {logging_mixin.py:109} INFO - [2022-07-10 12:58:13,907] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:58:13,920] {logging_mixin.py:109} INFO - [2022-07-10 12:58:13,920] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:58:13,926] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.044 seconds
+[2022-07-10 12:58:43,963] {processor.py:163} INFO - Started process (PID=1912) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:58:43,964] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:58:43,964] {logging_mixin.py:109} INFO - [2022-07-10 12:58:43,964] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:58:43,973] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:58:43,984] {logging_mixin.py:109} INFO - [2022-07-10 12:58:43,984] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:58:43,994] {logging_mixin.py:109} INFO - [2022-07-10 12:58:43,993] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:58:43,998] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.036 seconds
+[2022-07-10 12:59:14,741] {processor.py:163} INFO - Started process (PID=1974) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:59:14,744] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:59:14,744] {logging_mixin.py:109} INFO - [2022-07-10 12:59:14,744] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:59:14,759] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:59:14,772] {logging_mixin.py:109} INFO - [2022-07-10 12:59:14,772] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:59:14,782] {logging_mixin.py:109} INFO - [2022-07-10 12:59:14,782] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:59:14,787] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.049 seconds
+[2022-07-10 12:59:44,815] {processor.py:163} INFO - Started process (PID=2046) to work on /opt/airflow/dags/model.py
+[2022-07-10 12:59:44,816] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 12:59:44,816] {logging_mixin.py:109} INFO - [2022-07-10 12:59:44,816] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 12:59:44,828] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 12:59:44,840] {logging_mixin.py:109} INFO - [2022-07-10 12:59:44,840] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 12:59:44,852] {logging_mixin.py:109} INFO - [2022-07-10 12:59:44,852] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 12:59:44,857] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.044 seconds
+[2022-07-10 13:00:15,582] {processor.py:163} INFO - Started process (PID=2117) to work on /opt/airflow/dags/model.py
+[2022-07-10 13:00:15,583] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 13:00:15,584] {logging_mixin.py:109} INFO - [2022-07-10 13:00:15,584] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 13:00:15,597] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 13:00:15,608] {logging_mixin.py:109} INFO - [2022-07-10 13:00:15,608] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 13:00:15,619] {logging_mixin.py:109} INFO - [2022-07-10 13:00:15,618] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 13:00:15,624] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.045 seconds
+[2022-07-10 13:00:46,268] {processor.py:163} INFO - Started process (PID=2181) to work on /opt/airflow/dags/model.py
+[2022-07-10 13:00:46,268] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 13:00:46,269] {logging_mixin.py:109} INFO - [2022-07-10 13:00:46,268] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 13:00:46,279] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 13:00:46,291] {logging_mixin.py:109} INFO - [2022-07-10 13:00:46,291] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 13:00:46,302] {logging_mixin.py:109} INFO - [2022-07-10 13:00:46,302] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 13:00:46,307] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.041 seconds
+[2022-07-10 13:01:17,197] {processor.py:163} INFO - Started process (PID=2252) to work on /opt/airflow/dags/model.py
+[2022-07-10 13:01:17,203] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 13:01:17,204] {logging_mixin.py:109} INFO - [2022-07-10 13:01:17,203] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 13:01:17,217] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 13:01:17,229] {logging_mixin.py:109} INFO - [2022-07-10 13:01:17,228] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 13:01:17,241] {logging_mixin.py:109} INFO - [2022-07-10 13:01:17,241] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 13:01:17,246] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.051 seconds
+[2022-07-10 13:01:47,985] {processor.py:163} INFO - Started process (PID=2324) to work on /opt/airflow/dags/model.py
+[2022-07-10 13:01:47,986] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 13:01:47,986] {logging_mixin.py:109} INFO - [2022-07-10 13:01:47,986] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 13:01:47,996] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 13:01:48,007] {logging_mixin.py:109} INFO - [2022-07-10 13:01:48,007] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 13:01:48,019] {logging_mixin.py:109} INFO - [2022-07-10 13:01:48,018] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 13:01:48,024] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.042 seconds
+[2022-07-10 13:02:18,808] {processor.py:163} INFO - Started process (PID=2386) to work on /opt/airflow/dags/model.py
+[2022-07-10 13:02:18,809] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 13:02:18,809] {logging_mixin.py:109} INFO - [2022-07-10 13:02:18,809] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 13:02:18,819] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 13:02:18,830] {logging_mixin.py:109} INFO - [2022-07-10 13:02:18,830] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 13:02:18,841] {logging_mixin.py:109} INFO - [2022-07-10 13:02:18,841] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 13:02:18,847] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.041 seconds
+[2022-07-10 13:02:49,442] {processor.py:163} INFO - Started process (PID=2459) to work on /opt/airflow/dags/model.py
+[2022-07-10 13:02:49,443] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 13:02:49,443] {logging_mixin.py:109} INFO - [2022-07-10 13:02:49,443] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 13:02:49,457] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 13:02:49,472] {logging_mixin.py:109} INFO - [2022-07-10 13:02:49,472] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 13:02:49,484] {logging_mixin.py:109} INFO - [2022-07-10 13:02:49,483] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 13:02:49,492] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.052 seconds
+[2022-07-10 13:03:20,307] {processor.py:163} INFO - Started process (PID=2530) to work on /opt/airflow/dags/model.py
+[2022-07-10 13:03:20,307] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 13:03:20,308] {logging_mixin.py:109} INFO - [2022-07-10 13:03:20,308] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 13:03:20,319] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 13:03:20,334] {logging_mixin.py:109} INFO - [2022-07-10 13:03:20,334] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 13:03:20,348] {logging_mixin.py:109} INFO - [2022-07-10 13:03:20,348] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 13:03:20,354] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.048 seconds
+[2022-07-10 13:03:51,309] {processor.py:163} INFO - Started process (PID=2593) to work on /opt/airflow/dags/model.py
+[2022-07-10 13:03:51,310] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 13:03:51,310] {logging_mixin.py:109} INFO - [2022-07-10 13:03:51,310] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 13:03:51,321] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 13:03:51,335] {logging_mixin.py:109} INFO - [2022-07-10 13:03:51,335] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 13:03:51,349] {logging_mixin.py:109} INFO - [2022-07-10 13:03:51,349] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 13:03:51,355] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.047 seconds
+[2022-07-10 13:04:22,219] {processor.py:163} INFO - Started process (PID=2665) to work on /opt/airflow/dags/model.py
+[2022-07-10 13:04:22,219] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 13:04:22,220] {logging_mixin.py:109} INFO - [2022-07-10 13:04:22,220] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 13:04:22,230] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 13:04:22,241] {logging_mixin.py:109} INFO - [2022-07-10 13:04:22,241] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-10 13:04:22,252] {logging_mixin.py:109} INFO - [2022-07-10 13:04:22,252] {dag.py:2937} INFO - Setting next_dagrun for my_dag to 2022-07-10T00:00:00+00:00
+[2022-07-10 13:04:22,258] {processor.py:171} INFO - Processing /opt/airflow/dags/model.py took 0.041 seconds
+[2022-07-10 13:04:52,941] {processor.py:163} INFO - Started process (PID=2736) to work on /opt/airflow/dags/model.py
+[2022-07-10 13:04:52,942] {processor.py:642} INFO - Processing file /opt/airflow/dags/model.py for tasks to queue
+[2022-07-10 13:04:52,943] {logging_mixin.py:109} INFO - [2022-07-10 13:04:52,942] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/model.py
+[2022-07-10 13:04:52,963] {processor.py:652} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/model.py
+[2022-07-10 13:04:53,475] {processor.py:174} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 168, in _run_file_processor
+    callback_requests=callback_requests,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 661, in process_file
+    dagbag.sync_to_db()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 608, in sync_to_db
+    for attempt in run_with_db_retries(logger=self.log):
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 382, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 360, in iter
+    raise retry_exc.reraise()
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 193, in reraise
+    raise self.last_attempt.result()
+  File "/usr/local/lib/python3.7/concurrent/futures/_base.py", line 428, in result
+    return self.__get_result()
+  File "/usr/local/lib/python3.7/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 620, in sync_to_db
+    serialize_errors.extend(_serialize_dag_capturing_errors(dag, session))
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 594, in _serialize_dag_capturing_errors
+    session=session,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/serialized_dag.py", line 124, in write_dag
+    (timezone.utcnow() - timedelta(seconds=min_update_interval)) < cls.last_updated,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3429, in first
+    ret = list(self[0:1])
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3203, in __getitem__
+    return list(res)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3557, in _execute_and_instances
+    querycontext, self._connection_from_session, close_with_result=True
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3572, in _get_bind_args
+    mapper=self._bind_mapper(), clause=querycontext.statement, **kw
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3550, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1145, in connection
+    execution_options=execution_options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1151, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 433, in _connection_for_bind
+    conn = bind._contextual_connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2302, in _contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2340, in _wrap_pool_connect
+    e, dialect, self
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1584, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: http://sqlalche.me/e/13/e3q8)

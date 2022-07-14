@@ -1,0 +1,260 @@
+[2022-07-14 13:23:46,522] {processor.py:163} INFO - Started process (PID=45300) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:23:46,522] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:23:46,523] {logging_mixin.py:109} INFO - [2022-07-14 13:23:46,523] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:23:46,546] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:23:46,554] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.034 seconds
+[2022-07-14 13:24:17,285] {processor.py:163} INFO - Started process (PID=45377) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:24:17,286] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:24:17,286] {logging_mixin.py:109} INFO - [2022-07-14 13:24:17,286] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:24:17,308] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:24:17,316] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.032 seconds
+[2022-07-14 13:24:47,358] {processor.py:163} INFO - Started process (PID=45452) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:24:47,359] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:24:47,359] {logging_mixin.py:109} INFO - [2022-07-14 13:24:47,359] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:24:47,390] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:24:47,400] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.044 seconds
+[2022-07-14 13:25:18,035] {processor.py:163} INFO - Started process (PID=45518) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:25:18,036] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:25:18,037] {logging_mixin.py:109} INFO - [2022-07-14 13:25:18,037] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:25:18,057] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:25:18,066] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.033 seconds
+[2022-07-14 13:25:48,801] {processor.py:163} INFO - Started process (PID=45594) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:25:48,808] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:25:48,808] {logging_mixin.py:109} INFO - [2022-07-14 13:25:48,808] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:25:48,829] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:25:48,837] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.038 seconds
+[2022-07-14 13:26:19,631] {processor.py:163} INFO - Started process (PID=45669) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:26:19,632] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:26:19,633] {logging_mixin.py:109} INFO - [2022-07-14 13:26:19,633] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:26:19,656] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:26:19,666] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.037 seconds
+[2022-07-14 13:26:50,441] {processor.py:163} INFO - Started process (PID=45737) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:26:50,443] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:26:50,443] {logging_mixin.py:109} INFO - [2022-07-14 13:26:50,443] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:26:50,468] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:26:50,477] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.038 seconds
+[2022-07-14 13:27:21,340] {processor.py:163} INFO - Started process (PID=45812) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:27:21,341] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:27:21,341] {logging_mixin.py:109} INFO - [2022-07-14 13:27:21,341] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:27:21,361] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:27:21,368] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.030 seconds
+[2022-07-14 13:27:52,142] {processor.py:163} INFO - Started process (PID=45888) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:27:52,143] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:27:52,143] {logging_mixin.py:109} INFO - [2022-07-14 13:27:52,143] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:27:52,166] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:27:52,180] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.040 seconds
+[2022-07-14 13:28:22,859] {processor.py:163} INFO - Started process (PID=45954) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:28:22,860] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:28:22,861] {logging_mixin.py:109} INFO - [2022-07-14 13:28:22,861] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:28:22,881] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:28:22,890] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.033 seconds
+[2022-07-14 13:28:52,922] {processor.py:163} INFO - Started process (PID=46078) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:28:52,923] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:28:52,923] {logging_mixin.py:109} INFO - [2022-07-14 13:28:52,923] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:28:52,945] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:28:52,953] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.033 seconds
+[2022-07-14 13:29:23,022] {processor.py:163} INFO - Started process (PID=46153) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:29:23,023] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:29:23,023] {logging_mixin.py:109} INFO - [2022-07-14 13:29:23,023] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:29:23,047] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:29:23,055] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.035 seconds
+[2022-07-14 13:29:53,117] {processor.py:163} INFO - Started process (PID=46237) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:29:53,124] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:29:53,125] {logging_mixin.py:109} INFO - [2022-07-14 13:29:53,125] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:29:53,152] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:29:53,159] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.045 seconds
+[2022-07-14 13:30:23,309] {processor.py:163} INFO - Started process (PID=46321) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:30:23,309] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:30:23,309] {logging_mixin.py:109} INFO - [2022-07-14 13:30:23,309] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:30:23,340] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:30:23,350] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.043 seconds
+[2022-07-14 13:30:53,492] {processor.py:163} INFO - Started process (PID=46395) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:30:53,495] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:30:53,495] {logging_mixin.py:109} INFO - [2022-07-14 13:30:53,495] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:30:53,516] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:30:53,524] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.036 seconds
+[2022-07-14 13:31:23,588] {processor.py:163} INFO - Started process (PID=46478) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:31:23,589] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:31:23,590] {logging_mixin.py:109} INFO - [2022-07-14 13:31:23,590] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:31:23,611] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:31:23,620] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.034 seconds
+[2022-07-14 13:31:53,941] {processor.py:163} INFO - Started process (PID=46552) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:31:53,942] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:31:53,943] {logging_mixin.py:109} INFO - [2022-07-14 13:31:53,943] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:31:53,967] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:31:53,975] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.038 seconds
+[2022-07-14 13:32:24,108] {processor.py:163} INFO - Started process (PID=46635) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:32:24,109] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:32:24,110] {logging_mixin.py:109} INFO - [2022-07-14 13:32:24,110] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:32:24,133] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:32:24,143] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.037 seconds
+[2022-07-14 13:32:54,465] {processor.py:163} INFO - Started process (PID=46718) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:32:54,466] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:32:54,466] {logging_mixin.py:109} INFO - [2022-07-14 13:32:54,466] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:32:54,491] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:32:54,500] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.037 seconds
+[2022-07-14 13:33:24,643] {processor.py:163} INFO - Started process (PID=46794) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:33:24,645] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:33:24,645] {logging_mixin.py:109} INFO - [2022-07-14 13:33:24,645] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:33:24,666] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:33:24,674] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.033 seconds
+[2022-07-14 13:33:54,942] {processor.py:163} INFO - Started process (PID=46878) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:33:54,944] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:33:54,944] {logging_mixin.py:109} INFO - [2022-07-14 13:33:54,944] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:33:54,965] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:33:54,973] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.033 seconds
+[2022-07-14 13:34:25,844] {processor.py:163} INFO - Started process (PID=46952) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:34:25,846] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:34:25,846] {logging_mixin.py:109} INFO - [2022-07-14 13:34:25,846] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:34:25,873] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:34:25,881] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.039 seconds
+[2022-07-14 13:34:56,063] {processor.py:163} INFO - Started process (PID=47036) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:34:56,065] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:34:56,065] {logging_mixin.py:109} INFO - [2022-07-14 13:34:56,065] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:34:56,090] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:34:56,100] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.039 seconds
+[2022-07-14 13:35:26,257] {processor.py:163} INFO - Started process (PID=47119) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:35:26,258] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:35:26,258] {logging_mixin.py:109} INFO - [2022-07-14 13:35:26,258] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:35:26,282] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:35:26,291] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.036 seconds
+[2022-07-14 13:35:57,205] {processor.py:163} INFO - Started process (PID=47193) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:35:57,207] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:35:57,208] {logging_mixin.py:109} INFO - [2022-07-14 13:35:57,208] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:35:57,232] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:35:57,240] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.039 seconds
+[2022-07-14 13:36:27,330] {processor.py:163} INFO - Started process (PID=47277) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:36:27,331] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:36:27,331] {logging_mixin.py:109} INFO - [2022-07-14 13:36:27,331] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:36:27,356] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:36:27,364] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.038 seconds
+[2022-07-14 13:36:57,673] {processor.py:163} INFO - Started process (PID=47351) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:36:57,674] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:36:57,674] {logging_mixin.py:109} INFO - [2022-07-14 13:36:57,674] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:36:57,701] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:36:57,710] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.040 seconds
+[2022-07-14 13:37:28,297] {processor.py:163} INFO - Started process (PID=47434) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:37:28,298] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:37:28,299] {logging_mixin.py:109} INFO - [2022-07-14 13:37:28,299] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:37:28,326] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:37:28,334] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.039 seconds
+[2022-07-14 13:37:58,574] {processor.py:163} INFO - Started process (PID=47518) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:37:58,581] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:37:58,581] {logging_mixin.py:109} INFO - [2022-07-14 13:37:58,581] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:37:58,604] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:37:58,614] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.043 seconds
+[2022-07-14 13:38:28,649] {processor.py:163} INFO - Started process (PID=47594) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:38:28,651] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:38:28,652] {logging_mixin.py:109} INFO - [2022-07-14 13:38:28,651] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:38:28,676] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:38:28,685] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.040 seconds
+[2022-07-14 13:38:58,829] {processor.py:163} INFO - Started process (PID=47677) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:38:58,830] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:38:58,831] {logging_mixin.py:109} INFO - [2022-07-14 13:38:58,831] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:38:58,857] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:38:58,865] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.040 seconds
+[2022-07-14 13:39:29,008] {processor.py:163} INFO - Started process (PID=47751) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:39:29,009] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:39:29,010] {logging_mixin.py:109} INFO - [2022-07-14 13:39:29,010] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:39:29,032] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:39:29,042] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.037 seconds
+[2022-07-14 13:39:59,406] {processor.py:163} INFO - Started process (PID=47834) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:39:59,408] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:39:59,408] {logging_mixin.py:109} INFO - [2022-07-14 13:39:59,408] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:39:59,431] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:39:59,440] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.035 seconds
+[2022-07-14 13:40:29,531] {processor.py:163} INFO - Started process (PID=47917) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:40:29,533] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:40:29,533] {logging_mixin.py:109} INFO - [2022-07-14 13:40:29,533] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:40:29,569] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:40:29,580] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.051 seconds
+[2022-07-14 13:40:59,860] {processor.py:163} INFO - Started process (PID=47992) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:40:59,862] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:40:59,862] {logging_mixin.py:109} INFO - [2022-07-14 13:40:59,862] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:40:59,884] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:40:59,893] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.035 seconds
+[2022-07-14 13:41:30,115] {processor.py:163} INFO - Started process (PID=48077) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:41:30,117] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:41:30,118] {logging_mixin.py:109} INFO - [2022-07-14 13:41:30,118] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:41:30,144] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:41:30,154] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.041 seconds
+[2022-07-14 13:42:00,522] {processor.py:163} INFO - Started process (PID=48153) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:42:00,523] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:42:00,523] {logging_mixin.py:109} INFO - [2022-07-14 13:42:00,523] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:42:00,555] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:42:00,565] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.047 seconds
+[2022-07-14 13:42:31,032] {processor.py:163} INFO - Started process (PID=48236) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:42:31,034] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:42:31,034] {logging_mixin.py:109} INFO - [2022-07-14 13:42:31,034] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:42:31,056] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:42:31,066] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.037 seconds
+[2022-07-14 13:43:01,171] {processor.py:163} INFO - Started process (PID=48311) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:43:01,173] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:43:01,173] {logging_mixin.py:109} INFO - [2022-07-14 13:43:01,173] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:43:01,201] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:43:01,210] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.040 seconds
+[2022-07-14 13:43:31,462] {processor.py:163} INFO - Started process (PID=48395) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:43:31,463] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:43:31,464] {logging_mixin.py:109} INFO - [2022-07-14 13:43:31,464] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:43:31,488] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:43:31,496] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.038 seconds
+[2022-07-14 13:44:01,884] {processor.py:163} INFO - Started process (PID=48479) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:44:01,885] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:44:01,885] {logging_mixin.py:109} INFO - [2022-07-14 13:44:01,885] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:44:01,910] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:44:01,919] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.037 seconds
+[2022-07-14 13:44:31,956] {processor.py:163} INFO - Started process (PID=48555) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:44:31,958] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:44:31,958] {logging_mixin.py:109} INFO - [2022-07-14 13:44:31,958] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:44:31,986] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:44:31,994] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.039 seconds
+[2022-07-14 13:45:02,238] {processor.py:163} INFO - Started process (PID=48638) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:45:02,239] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:45:02,239] {logging_mixin.py:109} INFO - [2022-07-14 13:45:02,239] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:45:02,263] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:45:02,271] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.036 seconds
+[2022-07-14 13:45:32,770] {processor.py:163} INFO - Started process (PID=48712) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:45:32,772] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:45:32,772] {logging_mixin.py:109} INFO - [2022-07-14 13:45:32,772] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:45:32,799] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:45:32,807] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.039 seconds
+[2022-07-14 13:46:02,873] {processor.py:163} INFO - Started process (PID=48797) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:46:02,874] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:46:02,875] {logging_mixin.py:109} INFO - [2022-07-14 13:46:02,875] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:46:02,902] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:46:02,911] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.040 seconds
+[2022-07-14 13:46:33,013] {processor.py:163} INFO - Started process (PID=48878) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:46:33,016] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:46:33,019] {logging_mixin.py:109} INFO - [2022-07-14 13:46:33,016] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:46:33,061] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:46:33,113] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.104 seconds
+[2022-07-14 13:47:03,283] {processor.py:163} INFO - Started process (PID=48954) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:47:03,284] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:47:03,285] {logging_mixin.py:109} INFO - [2022-07-14 13:47:03,284] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:47:03,308] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:47:03,319] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.039 seconds
+[2022-07-14 13:47:33,621] {processor.py:163} INFO - Started process (PID=49037) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:47:33,622] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:47:33,622] {logging_mixin.py:109} INFO - [2022-07-14 13:47:33,622] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:47:33,646] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:47:33,654] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.036 seconds
+[2022-07-14 13:48:03,899] {processor.py:163} INFO - Started process (PID=49116) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:48:03,901] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:48:03,901] {logging_mixin.py:109} INFO - [2022-07-14 13:48:03,901] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:48:03,930] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:48:03,940] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.043 seconds
+[2022-07-14 13:48:34,191] {processor.py:163} INFO - Started process (PID=49199) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:48:34,192] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:48:34,192] {logging_mixin.py:109} INFO - [2022-07-14 13:48:34,192] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:48:34,214] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:48:34,222] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.034 seconds
+[2022-07-14 13:49:04,379] {processor.py:163} INFO - Started process (PID=49273) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:49:04,380] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:49:04,380] {logging_mixin.py:109} INFO - [2022-07-14 13:49:04,380] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:49:04,403] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:49:04,415] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.038 seconds
+[2022-07-14 13:49:34,470] {processor.py:163} INFO - Started process (PID=49355) to work on /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:49:34,478] {processor.py:642} INFO - Processing file /opt/airflow/dags/tests/dags/test_date_validation.py for tasks to queue
+[2022-07-14 13:49:34,478] {logging_mixin.py:109} INFO - [2022-07-14 13:49:34,478] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:49:34,504] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/dags/test_date_validation.py
+[2022-07-14 13:49:34,512] {processor.py:171} INFO - Processing /opt/airflow/dags/tests/dags/test_date_validation.py took 0.046 seconds

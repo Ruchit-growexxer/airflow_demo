@@ -1,0 +1,120 @@
+[2022-07-08 04:55:51,843] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: sql_demo.createtable_task scheduled__2022-07-07T00:00:00+00:00 [queued]>
+[2022-07-08 04:55:51,849] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: sql_demo.createtable_task scheduled__2022-07-07T00:00:00+00:00 [queued]>
+[2022-07-08 04:55:51,849] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-08 04:55:51,849] {taskinstance.py:1250} INFO - Starting attempt 1 of 1
+[2022-07-08 04:55:51,849] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-08 04:55:51,856] {taskinstance.py:1270} INFO - Executing <Task(MySqlOperator): createtable_task> on 2022-07-07 00:00:00+00:00
+[2022-07-08 04:55:51,859] {standard_task_runner.py:52} INFO - Started process 935 to run task
+[2022-07-08 04:55:51,861] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'sql_demo', 'createtable_task', 'scheduled__2022-07-07T00:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/sql_demo.py', '--cfg-path', '/tmp/tmpp8i06ve1', '--error-file', '/tmp/tmpfrr7t839']
+[2022-07-08 04:55:51,862] {standard_task_runner.py:80} INFO - Job 3: Subtask createtable_task
+[2022-07-08 04:55:51,894] {logging_mixin.py:109} INFO - Running <TaskInstance: sql_demo.createtable_task scheduled__2022-07-07T00:00:00+00:00 [running]> on host 6a15fbc57503
+[2022-07-08 04:55:51,912] {taskinstance.py:1747} WARNING - We expected to get frame set in local storage but it was not. Please report this as an issue with full logs at https://github.com/apache/***/issues/new
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1340, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1440, in _execute_task_with_callbacks
+    self.render_templates(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2067, in render_templates
+    self.task.render_template_fields(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1061, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1074, in _do_render_template_fields
+    rendered_content = self.render_template(content, context, jinja_env, seen_oids)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1108, in render_template
+    template = jinja_env.get_template(content)
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1741, in get_truncated_error_traceback
+    execution_frame = _TASK_EXECUTION_FRAME_LOCAL_STORAGE.frame
+AttributeError: '_thread._local' object has no attribute 'frame'
+[2022-07-08 04:55:51,913] {taskinstance.py:1774} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1340, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1440, in _execute_task_with_callbacks
+    self.render_templates(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2067, in render_templates
+    self.task.render_template_fields(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1061, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1074, in _do_render_template_fields
+    rendered_content = self.render_template(content, context, jinja_env, seen_oids)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1108, in render_template
+    template = jinja_env.get_template(content)
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2022-07-08 04:55:51,920] {taskinstance.py:1288} INFO - Marking task as FAILED. dag_id=sql_demo, task_id=createtable_task, execution_date=20220707T000000, start_date=20220708T045551, end_date=20220708T045551
+[2022-07-08 04:55:51,927] {standard_task_runner.py:98} ERROR - Failed to execute job 3 for task createtable_task (sql/create_table.sql; 935)
+[2022-07-08 04:55:51,953] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-07-08 04:55:51,995] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-07-08 13:29:39,780] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: sql_demo.createtable_task scheduled__2022-07-07T00:00:00+00:00 [queued]>
+[2022-07-08 13:29:39,786] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: sql_demo.createtable_task scheduled__2022-07-07T00:00:00+00:00 [queued]>
+[2022-07-08 13:29:39,786] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-08 13:29:39,786] {taskinstance.py:1250} INFO - Starting attempt 1 of 1
+[2022-07-08 13:29:39,786] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-08 13:29:39,792] {taskinstance.py:1270} INFO - Executing <Task(MySqlOperator): createtable_task> on 2022-07-07 00:00:00+00:00
+[2022-07-08 13:29:39,797] {standard_task_runner.py:52} INFO - Started process 245 to run task
+[2022-07-08 13:29:39,799] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'sql_demo', 'createtable_task', 'scheduled__2022-07-07T00:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/sql_demo.py', '--cfg-path', '/tmp/tmpmjiju4tq', '--error-file', '/tmp/tmpixlz843s']
+[2022-07-08 13:29:39,800] {standard_task_runner.py:80} INFO - Job 3: Subtask createtable_task
+[2022-07-08 13:29:39,830] {logging_mixin.py:109} INFO - Running <TaskInstance: sql_demo.createtable_task scheduled__2022-07-07T00:00:00+00:00 [running]> on host 18ea9465fe18
+[2022-07-08 13:29:39,859] {taskinstance.py:1448} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=sql_demo
+AIRFLOW_CTX_TASK_ID=createtable_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-07T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-07T00:00:00+00:00
+[2022-07-08 13:29:39,860] {mysql.py:82} INFO - Executing: 
+create database if not exists dezyre_db;
+use dezyre_db;
+
+create table if not exists `dezyre_db`.`employees`
+(
+emp_id int auto_increment primary key,
+first_name varchar(500) NOT null,
+last_name varchar(500) NOT null,
+hire_date date,
+job_id varchar(225),
+salary DECIMAL(7,2),
+commission_pct DECIMAL(6,2),
+manager_id int,
+dept_id int
+);
+[2022-07-08 13:29:39,875] {taskinstance.py:1774} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/mysql/operators/mysql.py", line 84, in execute
+    hook.run(self.sql, autocommit=self.autocommit, parameters=self.parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/dbapi.py", line 198, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/mysql/hooks/mysql.py", line 158, in get_conn
+    conn = self.connection or self.get_connection(getattr(self, self.conn_name_attr))
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 68, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 410, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `mysql_conn` isn't defined
+[2022-07-08 13:29:39,880] {taskinstance.py:1288} INFO - Marking task as FAILED. dag_id=sql_demo, task_id=createtable_task, execution_date=20220707T000000, start_date=20220708T132939, end_date=20220708T132939
+[2022-07-08 13:29:39,888] {standard_task_runner.py:98} ERROR - Failed to execute job 3 for task createtable_task (The conn_id `mysql_conn` isn't defined; 245)
+[2022-07-08 13:29:39,932] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-07-08 13:29:39,979] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

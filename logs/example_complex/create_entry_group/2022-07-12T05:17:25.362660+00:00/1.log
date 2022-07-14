@@ -1,0 +1,27 @@
+[2022-07-12 05:17:26,077] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: example_complex.create_entry_group manual__2022-07-12T05:17:25.362660+00:00 [queued]>
+[2022-07-12 05:17:26,086] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: example_complex.create_entry_group manual__2022-07-12T05:17:25.362660+00:00 [queued]>
+[2022-07-12 05:17:26,086] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-12 05:17:26,086] {taskinstance.py:1250} INFO - Starting attempt 1 of 1
+[2022-07-12 05:17:26,087] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-12 05:17:26,097] {taskinstance.py:1270} INFO - Executing <Task(BashOperator): create_entry_group> on 2022-07-12 05:17:25.362660+00:00
+[2022-07-12 05:17:26,101] {standard_task_runner.py:52} INFO - Started process 92 to run task
+[2022-07-12 05:17:26,103] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'example_complex', 'create_entry_group', 'manual__2022-07-12T05:17:25.362660+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/complex_task.py', '--cfg-path', '/tmp/tmp8c09x9de', '--error-file', '/tmp/tmp4c_ghnfy']
+[2022-07-12 05:17:26,104] {standard_task_runner.py:80} INFO - Job 3: Subtask create_entry_group
+[2022-07-12 05:17:26,134] {logging_mixin.py:109} INFO - Running <TaskInstance: example_complex.create_entry_group manual__2022-07-12T05:17:25.362660+00:00 [running]> on host 4b3cd1d754ba
+[2022-07-12 05:17:26,165] {taskinstance.py:1448} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=example_complex
+AIRFLOW_CTX_TASK_ID=create_entry_group
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-12T05:17:25.362660+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-12T05:17:25.362660+00:00
+[2022-07-12 05:17:26,166] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-07-12 05:17:26,167] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'echo create_entry_group']
+[2022-07-12 05:17:26,175] {subprocess.py:85} INFO - Output:
+[2022-07-12 05:17:26,176] {subprocess.py:89} INFO - create_entry_group
+[2022-07-12 05:17:26,176] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-07-12 05:17:26,194] {taskinstance.py:1288} INFO - Marking task as SUCCESS. dag_id=example_complex, task_id=create_entry_group, execution_date=20220712T051725, start_date=20220712T051726, end_date=20220712T051726
+[2022-07-12 05:17:26,235] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-12 05:17:26,276] {local_task_job.py:264} INFO - 4 downstream tasks scheduled from follow-on schedule check

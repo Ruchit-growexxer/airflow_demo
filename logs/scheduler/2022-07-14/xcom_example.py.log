@@ -1,0 +1,336 @@
+[2022-07-14 13:28:50,153] {processor.py:163} INFO - Started process (PID=46045) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:28:50,154] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:28:50,154] {logging_mixin.py:109} INFO - [2022-07-14 13:28:50,154] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:28:50,164] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:28:50,170] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:28:50,322] {logging_mixin.py:109} INFO - [2022-07-14 13:28:50,322] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:28:50,333] {logging_mixin.py:109} INFO - [2022-07-14 13:28:50,333] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:28:50,340] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.189 seconds
+[2022-07-14 13:29:20,755] {processor.py:163} INFO - Started process (PID=46145) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:29:20,756] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:29:20,757] {logging_mixin.py:109} INFO - [2022-07-14 13:29:20,757] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:29:20,767] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:29:20,775] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:29:20,786] {logging_mixin.py:109} INFO - [2022-07-14 13:29:20,786] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:29:20,796] {logging_mixin.py:109} INFO - [2022-07-14 13:29:20,796] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:29:20,801] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.048 seconds
+[2022-07-14 13:29:50,858] {processor.py:163} INFO - Started process (PID=46229) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:29:50,859] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:29:50,859] {logging_mixin.py:109} INFO - [2022-07-14 13:29:50,859] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:29:50,870] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:29:50,875] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:29:50,883] {logging_mixin.py:109} INFO - [2022-07-14 13:29:50,883] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:29:50,893] {logging_mixin.py:109} INFO - [2022-07-14 13:29:50,893] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:29:50,897] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.041 seconds
+[2022-07-14 13:30:21,090] {processor.py:163} INFO - Started process (PID=46303) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:30:21,091] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:30:21,091] {logging_mixin.py:109} INFO - [2022-07-14 13:30:21,091] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:30:21,101] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:30:21,106] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:30:21,246] {logging_mixin.py:109} INFO - [2022-07-14 13:30:21,246] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:30:21,256] {logging_mixin.py:109} INFO - [2022-07-14 13:30:21,256] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:30:21,262] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.174 seconds
+[2022-07-14 13:30:51,300] {processor.py:163} INFO - Started process (PID=46387) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:30:51,301] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:30:51,301] {logging_mixin.py:109} INFO - [2022-07-14 13:30:51,301] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:30:51,310] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:30:51,316] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:30:51,328] {logging_mixin.py:109} INFO - [2022-07-14 13:30:51,328] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:30:51,337] {logging_mixin.py:109} INFO - [2022-07-14 13:30:51,337] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:30:51,342] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.044 seconds
+[2022-07-14 13:31:21,404] {processor.py:163} INFO - Started process (PID=46470) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:31:21,405] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:31:21,406] {logging_mixin.py:109} INFO - [2022-07-14 13:31:21,406] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:31:21,418] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:31:21,424] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:31:21,432] {logging_mixin.py:109} INFO - [2022-07-14 13:31:21,432] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:31:21,442] {logging_mixin.py:109} INFO - [2022-07-14 13:31:21,442] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:31:21,448] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.045 seconds
+[2022-07-14 13:31:51,694] {processor.py:163} INFO - Started process (PID=46544) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:31:51,695] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:31:51,695] {logging_mixin.py:109} INFO - [2022-07-14 13:31:51,695] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:31:51,705] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:31:51,710] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:31:51,832] {logging_mixin.py:109} INFO - [2022-07-14 13:31:51,832] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:31:51,841] {logging_mixin.py:109} INFO - [2022-07-14 13:31:51,841] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:31:51,849] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.156 seconds
+[2022-07-14 13:32:21,903] {processor.py:163} INFO - Started process (PID=46627) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:32:21,904] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:32:21,904] {logging_mixin.py:109} INFO - [2022-07-14 13:32:21,904] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:32:21,913] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:32:21,919] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:32:21,931] {logging_mixin.py:109} INFO - [2022-07-14 13:32:21,931] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:32:21,941] {logging_mixin.py:109} INFO - [2022-07-14 13:32:21,941] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:32:21,947] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.046 seconds
+[2022-07-14 13:32:52,204] {processor.py:163} INFO - Started process (PID=46701) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:32:52,204] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:32:52,205] {logging_mixin.py:109} INFO - [2022-07-14 13:32:52,204] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:32:52,215] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:32:52,221] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:32:52,230] {logging_mixin.py:109} INFO - [2022-07-14 13:32:52,230] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:32:52,241] {logging_mixin.py:109} INFO - [2022-07-14 13:32:52,241] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:32:52,251] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.049 seconds
+[2022-07-14 13:33:22,495] {processor.py:163} INFO - Started process (PID=46786) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:33:22,496] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:33:22,496] {logging_mixin.py:109} INFO - [2022-07-14 13:33:22,496] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:33:22,505] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:33:22,510] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:33:22,636] {logging_mixin.py:109} INFO - [2022-07-14 13:33:22,636] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:33:22,645] {logging_mixin.py:109} INFO - [2022-07-14 13:33:22,645] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:33:22,652] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.158 seconds
+[2022-07-14 13:33:52,791] {processor.py:163} INFO - Started process (PID=46870) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:33:52,792] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:33:52,792] {logging_mixin.py:109} INFO - [2022-07-14 13:33:52,792] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:33:52,802] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:33:52,808] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:33:52,822] {logging_mixin.py:109} INFO - [2022-07-14 13:33:52,822] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:33:52,832] {logging_mixin.py:109} INFO - [2022-07-14 13:33:52,832] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:33:52,837] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.048 seconds
+[2022-07-14 13:34:23,650] {processor.py:163} INFO - Started process (PID=46944) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:34:23,651] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:34:23,651] {logging_mixin.py:109} INFO - [2022-07-14 13:34:23,651] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:34:23,660] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:34:23,665] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:34:23,673] {logging_mixin.py:109} INFO - [2022-07-14 13:34:23,673] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:34:23,682] {logging_mixin.py:109} INFO - [2022-07-14 13:34:23,682] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:34:23,687] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.039 seconds
+[2022-07-14 13:34:53,793] {processor.py:163} INFO - Started process (PID=47028) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:34:53,793] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:34:53,794] {logging_mixin.py:109} INFO - [2022-07-14 13:34:53,794] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:34:53,804] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:34:53,810] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:34:53,944] {logging_mixin.py:109} INFO - [2022-07-14 13:34:53,944] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:34:53,954] {logging_mixin.py:109} INFO - [2022-07-14 13:34:53,954] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:34:53,962] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.171 seconds
+[2022-07-14 13:35:24,961] {processor.py:163} INFO - Started process (PID=47113) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:35:24,962] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:35:24,962] {logging_mixin.py:109} INFO - [2022-07-14 13:35:24,962] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:35:24,981] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:35:24,992] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:35:25,016] {logging_mixin.py:109} INFO - [2022-07-14 13:35:25,016] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:35:25,041] {logging_mixin.py:109} INFO - [2022-07-14 13:35:25,041] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:35:25,053] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.095 seconds
+[2022-07-14 13:35:56,034] {processor.py:163} INFO - Started process (PID=47187) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:35:56,036] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:35:56,036] {logging_mixin.py:109} INFO - [2022-07-14 13:35:56,036] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:35:56,047] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:35:56,052] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:35:56,060] {logging_mixin.py:109} INFO - [2022-07-14 13:35:56,060] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:35:56,070] {logging_mixin.py:109} INFO - [2022-07-14 13:35:56,070] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:35:56,076] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.044 seconds
+[2022-07-14 13:36:26,108] {processor.py:163} INFO - Started process (PID=47271) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:36:26,110] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:36:26,110] {logging_mixin.py:109} INFO - [2022-07-14 13:36:26,110] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:36:26,121] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:36:26,127] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:36:26,279] {logging_mixin.py:109} INFO - [2022-07-14 13:36:26,279] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:36:26,291] {logging_mixin.py:109} INFO - [2022-07-14 13:36:26,291] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:36:26,299] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.193 seconds
+[2022-07-14 13:36:56,480] {processor.py:163} INFO - Started process (PID=47345) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:36:56,482] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:36:56,482] {logging_mixin.py:109} INFO - [2022-07-14 13:36:56,482] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:36:56,493] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:36:56,498] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:36:56,510] {logging_mixin.py:109} INFO - [2022-07-14 13:36:56,510] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:36:56,524] {logging_mixin.py:109} INFO - [2022-07-14 13:36:56,524] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:36:56,531] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.053 seconds
+[2022-07-14 13:37:27,111] {processor.py:163} INFO - Started process (PID=47428) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:37:27,113] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:37:27,113] {logging_mixin.py:109} INFO - [2022-07-14 13:37:27,113] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:37:27,123] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:37:27,131] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:37:27,139] {logging_mixin.py:109} INFO - [2022-07-14 13:37:27,139] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:37:27,151] {logging_mixin.py:109} INFO - [2022-07-14 13:37:27,151] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:37:27,157] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.052 seconds
+[2022-07-14 13:37:57,324] {processor.py:163} INFO - Started process (PID=47510) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:37:57,326] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:37:57,326] {logging_mixin.py:109} INFO - [2022-07-14 13:37:57,326] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:37:57,338] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:37:57,345] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:37:57,486] {logging_mixin.py:109} INFO - [2022-07-14 13:37:57,486] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:37:57,502] {logging_mixin.py:109} INFO - [2022-07-14 13:37:57,502] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:37:57,511] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.189 seconds
+[2022-07-14 13:38:27,525] {processor.py:163} INFO - Started process (PID=47591) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:38:27,526] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:38:27,526] {logging_mixin.py:109} INFO - [2022-07-14 13:38:27,526] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:38:27,537] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:38:27,544] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:38:27,555] {logging_mixin.py:109} INFO - [2022-07-14 13:38:27,555] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:38:27,565] {logging_mixin.py:109} INFO - [2022-07-14 13:38:27,565] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:38:27,569] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.046 seconds
+[2022-07-14 13:38:57,630] {processor.py:163} INFO - Started process (PID=47671) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:38:57,632] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:38:57,633] {logging_mixin.py:109} INFO - [2022-07-14 13:38:57,632] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:38:57,646] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:38:57,652] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:38:57,660] {logging_mixin.py:109} INFO - [2022-07-14 13:38:57,660] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:38:57,670] {logging_mixin.py:109} INFO - [2022-07-14 13:38:57,670] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:38:57,675] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.047 seconds
+[2022-07-14 13:39:27,770] {processor.py:163} INFO - Started process (PID=47745) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:39:27,771] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:39:27,772] {logging_mixin.py:109} INFO - [2022-07-14 13:39:27,772] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:39:27,783] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:39:27,794] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:39:27,951] {logging_mixin.py:109} INFO - [2022-07-14 13:39:27,951] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:39:27,963] {logging_mixin.py:109} INFO - [2022-07-14 13:39:27,963] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:39:27,970] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.203 seconds
+[2022-07-14 13:39:58,235] {processor.py:163} INFO - Started process (PID=47828) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:39:58,237] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:39:58,237] {logging_mixin.py:109} INFO - [2022-07-14 13:39:58,237] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:39:58,250] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:39:58,256] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:39:58,267] {logging_mixin.py:109} INFO - [2022-07-14 13:39:58,267] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:39:58,277] {logging_mixin.py:109} INFO - [2022-07-14 13:39:58,277] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:39:58,283] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.052 seconds
+[2022-07-14 13:40:28,357] {processor.py:163} INFO - Started process (PID=47902) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:40:28,358] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:40:28,358] {logging_mixin.py:109} INFO - [2022-07-14 13:40:28,358] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:40:28,368] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:40:28,375] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:40:28,383] {logging_mixin.py:109} INFO - [2022-07-14 13:40:28,383] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:40:28,395] {logging_mixin.py:109} INFO - [2022-07-14 13:40:28,395] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:40:28,404] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.050 seconds
+[2022-07-14 13:40:58,596] {processor.py:163} INFO - Started process (PID=47986) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:40:58,597] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:40:58,597] {logging_mixin.py:109} INFO - [2022-07-14 13:40:58,597] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:40:58,611] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:40:58,618] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:40:58,777] {logging_mixin.py:109} INFO - [2022-07-14 13:40:58,777] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:40:58,789] {logging_mixin.py:109} INFO - [2022-07-14 13:40:58,789] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:40:58,796] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.201 seconds
+[2022-07-14 13:41:28,870] {processor.py:163} INFO - Started process (PID=48071) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:41:28,872] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:41:28,874] {logging_mixin.py:109} INFO - [2022-07-14 13:41:28,873] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:41:28,890] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:41:28,899] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:41:28,919] {logging_mixin.py:109} INFO - [2022-07-14 13:41:28,919] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:41:28,944] {logging_mixin.py:109} INFO - [2022-07-14 13:41:28,944] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:41:28,954] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.089 seconds
+[2022-07-14 13:41:59,333] {processor.py:163} INFO - Started process (PID=48147) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:41:59,333] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:41:59,334] {logging_mixin.py:109} INFO - [2022-07-14 13:41:59,334] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:41:59,345] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:41:59,352] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:41:59,361] {logging_mixin.py:109} INFO - [2022-07-14 13:41:59,361] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:41:59,372] {logging_mixin.py:109} INFO - [2022-07-14 13:41:59,372] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:41:59,377] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.048 seconds
+[2022-07-14 13:42:29,819] {processor.py:163} INFO - Started process (PID=48230) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:42:29,821] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:42:29,821] {logging_mixin.py:109} INFO - [2022-07-14 13:42:29,821] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:42:29,831] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:42:29,839] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:42:29,995] {logging_mixin.py:109} INFO - [2022-07-14 13:42:29,995] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:42:30,006] {logging_mixin.py:109} INFO - [2022-07-14 13:42:30,006] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:42:30,013] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.197 seconds
+[2022-07-14 13:43:00,107] {processor.py:163} INFO - Started process (PID=48308) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:43:00,107] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:43:00,108] {logging_mixin.py:109} INFO - [2022-07-14 13:43:00,108] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:43:00,118] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:43:00,124] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:43:00,136] {logging_mixin.py:109} INFO - [2022-07-14 13:43:00,136] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:43:00,146] {logging_mixin.py:109} INFO - [2022-07-14 13:43:00,146] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:43:00,152] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.048 seconds
+[2022-07-14 13:43:30,286] {processor.py:163} INFO - Started process (PID=48389) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:43:30,287] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:43:30,288] {logging_mixin.py:109} INFO - [2022-07-14 13:43:30,288] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:43:30,299] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:43:30,306] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:43:30,314] {logging_mixin.py:109} INFO - [2022-07-14 13:43:30,314] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:43:30,325] {logging_mixin.py:109} INFO - [2022-07-14 13:43:30,325] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:43:30,330] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.047 seconds
+[2022-07-14 13:44:00,579] {processor.py:163} INFO - Started process (PID=48463) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:44:00,580] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:44:00,581] {logging_mixin.py:109} INFO - [2022-07-14 13:44:00,581] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:44:00,591] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:44:00,597] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:44:00,784] {logging_mixin.py:109} INFO - [2022-07-14 13:44:00,784] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:44:00,793] {logging_mixin.py:109} INFO - [2022-07-14 13:44:00,793] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:44:00,800] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.222 seconds
+[2022-07-14 13:44:30,834] {processor.py:163} INFO - Started process (PID=48551) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:44:30,834] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:44:30,835] {logging_mixin.py:109} INFO - [2022-07-14 13:44:30,835] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:44:30,847] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:44:30,855] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:44:30,872] {logging_mixin.py:109} INFO - [2022-07-14 13:44:30,872] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:44:30,884] {logging_mixin.py:109} INFO - [2022-07-14 13:44:30,884] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:44:30,889] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.058 seconds
+[2022-07-14 13:45:01,061] {processor.py:163} INFO - Started process (PID=48632) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:45:01,061] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:45:01,062] {logging_mixin.py:109} INFO - [2022-07-14 13:45:01,062] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:45:01,073] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:45:01,080] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:45:01,092] {logging_mixin.py:109} INFO - [2022-07-14 13:45:01,092] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:45:01,106] {logging_mixin.py:109} INFO - [2022-07-14 13:45:01,106] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:45:01,112] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.053 seconds
+[2022-07-14 13:45:31,528] {processor.py:163} INFO - Started process (PID=48706) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:45:31,530] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:45:31,530] {logging_mixin.py:109} INFO - [2022-07-14 13:45:31,530] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:45:31,540] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:45:31,546] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:45:31,688] {logging_mixin.py:109} INFO - [2022-07-14 13:45:31,688] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:45:31,699] {logging_mixin.py:109} INFO - [2022-07-14 13:45:31,699] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:45:31,705] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.181 seconds
+[2022-07-14 13:46:01,769] {processor.py:163} INFO - Started process (PID=48794) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:46:01,770] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:46:01,771] {logging_mixin.py:109} INFO - [2022-07-14 13:46:01,771] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:46:01,782] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:46:01,788] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:46:01,801] {logging_mixin.py:109} INFO - [2022-07-14 13:46:01,801] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:46:01,812] {logging_mixin.py:109} INFO - [2022-07-14 13:46:01,812] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:46:01,818] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.051 seconds
+[2022-07-14 13:46:31,878] {processor.py:163} INFO - Started process (PID=48868) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:46:31,879] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:46:31,880] {logging_mixin.py:109} INFO - [2022-07-14 13:46:31,879] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:46:31,890] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:46:31,896] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:46:31,905] {logging_mixin.py:109} INFO - [2022-07-14 13:46:31,905] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:46:31,918] {logging_mixin.py:109} INFO - [2022-07-14 13:46:31,918] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:46:31,925] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.049 seconds
+[2022-07-14 13:47:02,061] {processor.py:163} INFO - Started process (PID=48948) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:47:02,061] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:47:02,062] {logging_mixin.py:109} INFO - [2022-07-14 13:47:02,062] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:47:02,072] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:47:02,079] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:47:02,218] {logging_mixin.py:109} INFO - [2022-07-14 13:47:02,218] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:47:02,228] {logging_mixin.py:109} INFO - [2022-07-14 13:47:02,228] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:47:02,237] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.179 seconds
+[2022-07-14 13:47:32,398] {processor.py:163} INFO - Started process (PID=49031) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:47:32,399] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:47:32,400] {logging_mixin.py:109} INFO - [2022-07-14 13:47:32,400] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:47:32,417] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:47:32,424] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:47:32,443] {logging_mixin.py:109} INFO - [2022-07-14 13:47:32,443] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:47:32,460] {logging_mixin.py:109} INFO - [2022-07-14 13:47:32,460] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:47:32,469] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.075 seconds
+[2022-07-14 13:48:02,719] {processor.py:163} INFO - Started process (PID=49110) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:48:02,720] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:48:02,720] {logging_mixin.py:109} INFO - [2022-07-14 13:48:02,720] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:48:02,733] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:48:02,739] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:48:02,749] {logging_mixin.py:109} INFO - [2022-07-14 13:48:02,749] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:48:02,760] {logging_mixin.py:109} INFO - [2022-07-14 13:48:02,760] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:48:02,766] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.050 seconds
+[2022-07-14 13:48:32,988] {processor.py:163} INFO - Started process (PID=49193) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:48:32,989] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:48:32,989] {logging_mixin.py:109} INFO - [2022-07-14 13:48:32,989] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:48:32,999] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:48:33,005] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:48:33,137] {logging_mixin.py:109} INFO - [2022-07-14 13:48:33,137] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:48:33,147] {logging_mixin.py:109} INFO - [2022-07-14 13:48:33,147] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:48:33,154] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.169 seconds
+[2022-07-14 13:49:03,208] {processor.py:163} INFO - Started process (PID=49267) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:49:03,210] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:49:03,210] {logging_mixin.py:109} INFO - [2022-07-14 13:49:03,210] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:49:03,222] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:49:03,229] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:49:03,241] {logging_mixin.py:109} INFO - [2022-07-14 13:49:03,241] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:49:03,253] {logging_mixin.py:109} INFO - [2022-07-14 13:49:03,253] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:49:03,261] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.056 seconds
+[2022-07-14 13:49:33,299] {processor.py:163} INFO - Started process (PID=49350) to work on /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:49:33,300] {processor.py:642} INFO - Processing file /opt/airflow/dags/xcom_example.py for tasks to queue
+[2022-07-14 13:49:33,300] {logging_mixin.py:109} INFO - [2022-07-14 13:49:33,300] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:49:33,311] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-07-14 13:49:33,317] {processor.py:652} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_example.py
+[2022-07-14 13:49:33,326] {logging_mixin.py:109} INFO - [2022-07-14 13:49:33,326] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-14 13:49:33,338] {logging_mixin.py:109} INFO - [2022-07-14 13:49:33,338] {dag.py:2937} INFO - Setting next_dagrun for xcom_dag to None
+[2022-07-14 13:49:33,346] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_example.py took 0.050 seconds

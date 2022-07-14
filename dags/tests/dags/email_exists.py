@@ -1,0 +1,31 @@
+from airflow.models import DagBag
+from pyparsing import Regex
+import re
+
+def test_dag():
+  dagbag=DagBag(dag_folder="/opt/airflow/dags/",include_examples=False)
+  dag_ids =["example_complex","demos"]
+  for dag_id in dag_ids:
+    dag=dagbag.get_dag(dag_id)
+    assert dag is not None
+    assert dag_id == dag.dag_id
+
+  assert dagbag.size() >=1
+  print(dagbag.size())
+
+def test_email_present():
+    dags =DagBag(dag_folder="/opt/airflow/dags/",include_examples=False)
+    email_regex = re.compile(
+        r"^[A-Za-z0-9\.\+_-]+@[A-Za-z0-9\._-]+\.[a-zA-Z]*$"
+    )  # regex to check for valid email
+    for dag_id,dag in dags.dags.items():
+        emails = dag.default_args.get("email",[])
+        print("emails:",emails)
+        print(email_regex)
+        for email in emails:
+          print(email)
+          assert email_regex.match(email) is None
+  
+
+
+

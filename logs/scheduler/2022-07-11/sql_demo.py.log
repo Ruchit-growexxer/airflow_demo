@@ -1,0 +1,133 @@
+[2022-07-11 04:24:49,547] {processor.py:163} INFO - Started process (PID=32) to work on /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:24:49,548] {processor.py:642} INFO - Processing file /opt/airflow/dags/sql_demo.py for tasks to queue
+[2022-07-11 04:24:49,548] {logging_mixin.py:109} INFO - [2022-07-11 04:24:49,548] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:24:50,194] {processor.py:652} INFO - DAG(s) dict_keys(['sql_demo']) retrieved from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:24:50,239] {logging_mixin.py:109} INFO - [2022-07-11 04:24:50,239] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 04:24:50,250] {logging_mixin.py:109} INFO - [2022-07-11 04:24:50,250] {dag.py:2937} INFO - Setting next_dagrun for sql_demo to None
+[2022-07-11 04:24:50,257] {processor.py:171} INFO - Processing /opt/airflow/dags/sql_demo.py took 0.713 seconds
+[2022-07-11 04:25:21,186] {processor.py:163} INFO - Started process (PID=111) to work on /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:25:21,188] {processor.py:642} INFO - Processing file /opt/airflow/dags/sql_demo.py for tasks to queue
+[2022-07-11 04:25:21,189] {logging_mixin.py:109} INFO - [2022-07-11 04:25:21,189] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:25:21,478] {processor.py:652} INFO - DAG(s) dict_keys(['sql_demo']) retrieved from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:25:21,488] {logging_mixin.py:109} INFO - [2022-07-11 04:25:21,487] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 04:25:21,496] {logging_mixin.py:109} INFO - [2022-07-11 04:25:21,496] {dag.py:2937} INFO - Setting next_dagrun for sql_demo to None
+[2022-07-11 04:25:21,501] {processor.py:171} INFO - Processing /opt/airflow/dags/sql_demo.py took 0.319 seconds
+[2022-07-11 04:25:52,069] {processor.py:163} INFO - Started process (PID=182) to work on /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:25:52,070] {processor.py:642} INFO - Processing file /opt/airflow/dags/sql_demo.py for tasks to queue
+[2022-07-11 04:25:52,070] {logging_mixin.py:109} INFO - [2022-07-11 04:25:52,070] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:25:52,312] {processor.py:652} INFO - DAG(s) dict_keys(['sql_demo']) retrieved from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:25:52,334] {logging_mixin.py:109} INFO - [2022-07-11 04:25:52,334] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 04:25:52,350] {logging_mixin.py:109} INFO - [2022-07-11 04:25:52,350] {dag.py:2937} INFO - Setting next_dagrun for sql_demo to None
+[2022-07-11 04:25:52,361] {processor.py:171} INFO - Processing /opt/airflow/dags/sql_demo.py took 0.295 seconds
+[2022-07-11 04:26:22,792] {processor.py:163} INFO - Started process (PID=244) to work on /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:26:22,793] {processor.py:642} INFO - Processing file /opt/airflow/dags/sql_demo.py for tasks to queue
+[2022-07-11 04:26:22,794] {logging_mixin.py:109} INFO - [2022-07-11 04:26:22,794] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:26:23,033] {processor.py:652} INFO - DAG(s) dict_keys(['sql_demo']) retrieved from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:26:23,045] {logging_mixin.py:109} INFO - [2022-07-11 04:26:23,045] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 04:26:23,068] {logging_mixin.py:109} INFO - [2022-07-11 04:26:23,068] {dag.py:2937} INFO - Setting next_dagrun for sql_demo to None
+[2022-07-11 04:26:23,078] {processor.py:171} INFO - Processing /opt/airflow/dags/sql_demo.py took 0.291 seconds
+[2022-07-11 04:26:53,623] {processor.py:163} INFO - Started process (PID=315) to work on /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:26:53,625] {processor.py:642} INFO - Processing file /opt/airflow/dags/sql_demo.py for tasks to queue
+[2022-07-11 04:26:53,626] {logging_mixin.py:109} INFO - [2022-07-11 04:26:53,626] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:26:53,861] {processor.py:652} INFO - DAG(s) dict_keys(['sql_demo']) retrieved from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:26:53,889] {logging_mixin.py:109} INFO - [2022-07-11 04:26:53,888] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 04:26:53,903] {logging_mixin.py:109} INFO - [2022-07-11 04:26:53,903] {dag.py:2937} INFO - Setting next_dagrun for sql_demo to None
+[2022-07-11 04:26:53,909] {processor.py:171} INFO - Processing /opt/airflow/dags/sql_demo.py took 0.288 seconds
+[2022-07-11 04:27:24,454] {processor.py:163} INFO - Started process (PID=387) to work on /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:27:24,454] {processor.py:642} INFO - Processing file /opt/airflow/dags/sql_demo.py for tasks to queue
+[2022-07-11 04:27:24,455] {logging_mixin.py:109} INFO - [2022-07-11 04:27:24,455] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:27:24,687] {processor.py:652} INFO - DAG(s) dict_keys(['sql_demo']) retrieved from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:27:24,710] {logging_mixin.py:109} INFO - [2022-07-11 04:27:24,709] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 04:27:24,722] {logging_mixin.py:109} INFO - [2022-07-11 04:27:24,722] {dag.py:2937} INFO - Setting next_dagrun for sql_demo to None
+[2022-07-11 04:27:24,727] {processor.py:171} INFO - Processing /opt/airflow/dags/sql_demo.py took 0.275 seconds
+[2022-07-11 04:27:55,086] {processor.py:163} INFO - Started process (PID=456) to work on /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:27:55,087] {processor.py:642} INFO - Processing file /opt/airflow/dags/sql_demo.py for tasks to queue
+[2022-07-11 04:27:55,087] {logging_mixin.py:109} INFO - [2022-07-11 04:27:55,087] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:27:55,361] {processor.py:652} INFO - DAG(s) dict_keys(['sql_demo']) retrieved from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:27:55,377] {logging_mixin.py:109} INFO - [2022-07-11 04:27:55,376] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 04:27:55,391] {logging_mixin.py:109} INFO - [2022-07-11 04:27:55,390] {dag.py:2937} INFO - Setting next_dagrun for sql_demo to None
+[2022-07-11 04:27:55,398] {processor.py:171} INFO - Processing /opt/airflow/dags/sql_demo.py took 0.313 seconds
+[2022-07-11 04:28:26,036] {processor.py:163} INFO - Started process (PID=521) to work on /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:28:26,037] {processor.py:642} INFO - Processing file /opt/airflow/dags/sql_demo.py for tasks to queue
+[2022-07-11 04:28:26,037] {logging_mixin.py:109} INFO - [2022-07-11 04:28:26,037] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:28:26,327] {processor.py:652} INFO - DAG(s) dict_keys(['sql_demo']) retrieved from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:28:26,341] {logging_mixin.py:109} INFO - [2022-07-11 04:28:26,341] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 04:28:26,357] {logging_mixin.py:109} INFO - [2022-07-11 04:28:26,357] {dag.py:2937} INFO - Setting next_dagrun for sql_demo to None
+[2022-07-11 04:28:26,364] {processor.py:171} INFO - Processing /opt/airflow/dags/sql_demo.py took 0.330 seconds
+[2022-07-11 04:28:56,852] {processor.py:163} INFO - Started process (PID=592) to work on /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:28:56,853] {processor.py:642} INFO - Processing file /opt/airflow/dags/sql_demo.py for tasks to queue
+[2022-07-11 04:28:56,854] {logging_mixin.py:109} INFO - [2022-07-11 04:28:56,853] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:28:57,120] {processor.py:652} INFO - DAG(s) dict_keys(['sql_demo']) retrieved from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:28:57,133] {logging_mixin.py:109} INFO - [2022-07-11 04:28:57,132] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 04:28:57,145] {logging_mixin.py:109} INFO - [2022-07-11 04:28:57,145] {dag.py:2937} INFO - Setting next_dagrun for sql_demo to None
+[2022-07-11 04:28:57,151] {processor.py:171} INFO - Processing /opt/airflow/dags/sql_demo.py took 0.303 seconds
+[2022-07-11 04:29:27,738] {processor.py:163} INFO - Started process (PID=664) to work on /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:29:27,740] {processor.py:642} INFO - Processing file /opt/airflow/dags/sql_demo.py for tasks to queue
+[2022-07-11 04:29:27,740] {logging_mixin.py:109} INFO - [2022-07-11 04:29:27,740] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:29:28,110] {processor.py:652} INFO - DAG(s) dict_keys(['sql_demo']) retrieved from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:29:28,128] {logging_mixin.py:109} INFO - [2022-07-11 04:29:28,127] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 04:29:28,151] {logging_mixin.py:109} INFO - [2022-07-11 04:29:28,151] {dag.py:2937} INFO - Setting next_dagrun for sql_demo to None
+[2022-07-11 04:29:28,160] {processor.py:171} INFO - Processing /opt/airflow/dags/sql_demo.py took 0.424 seconds
+[2022-07-11 04:29:58,839] {processor.py:163} INFO - Started process (PID=726) to work on /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:29:58,839] {processor.py:642} INFO - Processing file /opt/airflow/dags/sql_demo.py for tasks to queue
+[2022-07-11 04:29:58,840] {logging_mixin.py:109} INFO - [2022-07-11 04:29:58,840] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:29:59,170] {processor.py:652} INFO - DAG(s) dict_keys(['sql_demo']) retrieved from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:29:59,186] {logging_mixin.py:109} INFO - [2022-07-11 04:29:59,186] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 04:29:59,198] {logging_mixin.py:109} INFO - [2022-07-11 04:29:59,198] {dag.py:2937} INFO - Setting next_dagrun for sql_demo to None
+[2022-07-11 04:29:59,203] {processor.py:171} INFO - Processing /opt/airflow/dags/sql_demo.py took 0.367 seconds
+[2022-07-11 04:30:30,046] {processor.py:163} INFO - Started process (PID=797) to work on /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:30:30,048] {processor.py:642} INFO - Processing file /opt/airflow/dags/sql_demo.py for tasks to queue
+[2022-07-11 04:30:30,049] {logging_mixin.py:109} INFO - [2022-07-11 04:30:30,049] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:30:30,309] {processor.py:652} INFO - DAG(s) dict_keys(['sql_demo']) retrieved from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:30:30,329] {logging_mixin.py:109} INFO - [2022-07-11 04:30:30,328] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 04:30:30,350] {logging_mixin.py:109} INFO - [2022-07-11 04:30:30,350] {dag.py:2937} INFO - Setting next_dagrun for sql_demo to None
+[2022-07-11 04:30:30,356] {processor.py:171} INFO - Processing /opt/airflow/dags/sql_demo.py took 0.314 seconds
+[2022-07-11 04:31:00,900] {processor.py:163} INFO - Started process (PID=867) to work on /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:31:00,907] {processor.py:642} INFO - Processing file /opt/airflow/dags/sql_demo.py for tasks to queue
+[2022-07-11 04:31:00,907] {logging_mixin.py:109} INFO - [2022-07-11 04:31:00,907] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:31:01,252] {processor.py:652} INFO - DAG(s) dict_keys(['sql_demo']) retrieved from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:31:01,264] {logging_mixin.py:109} INFO - [2022-07-11 04:31:01,264] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 04:31:01,278] {logging_mixin.py:109} INFO - [2022-07-11 04:31:01,278] {dag.py:2937} INFO - Setting next_dagrun for sql_demo to None
+[2022-07-11 04:31:01,286] {processor.py:171} INFO - Processing /opt/airflow/dags/sql_demo.py took 0.388 seconds
+[2022-07-11 04:31:31,910] {processor.py:163} INFO - Started process (PID=930) to work on /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:31:31,913] {processor.py:642} INFO - Processing file /opt/airflow/dags/sql_demo.py for tasks to queue
+[2022-07-11 04:31:31,913] {logging_mixin.py:109} INFO - [2022-07-11 04:31:31,913] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:31:32,211] {processor.py:652} INFO - DAG(s) dict_keys(['sql_demo']) retrieved from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:31:32,230] {logging_mixin.py:109} INFO - [2022-07-11 04:31:32,230] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 04:31:32,241] {logging_mixin.py:109} INFO - [2022-07-11 04:31:32,241] {dag.py:2937} INFO - Setting next_dagrun for sql_demo to None
+[2022-07-11 04:31:32,247] {processor.py:171} INFO - Processing /opt/airflow/dags/sql_demo.py took 0.341 seconds
+[2022-07-11 04:32:02,815] {processor.py:163} INFO - Started process (PID=1002) to work on /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:32:02,816] {processor.py:642} INFO - Processing file /opt/airflow/dags/sql_demo.py for tasks to queue
+[2022-07-11 04:32:02,816] {logging_mixin.py:109} INFO - [2022-07-11 04:32:02,816] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:32:03,111] {processor.py:652} INFO - DAG(s) dict_keys(['sql_demo']) retrieved from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:32:03,121] {logging_mixin.py:109} INFO - [2022-07-11 04:32:03,121] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 04:32:03,130] {logging_mixin.py:109} INFO - [2022-07-11 04:32:03,130] {dag.py:2937} INFO - Setting next_dagrun for sql_demo to None
+[2022-07-11 04:32:03,136] {processor.py:171} INFO - Processing /opt/airflow/dags/sql_demo.py took 0.322 seconds
+[2022-07-11 04:32:33,328] {processor.py:163} INFO - Started process (PID=1073) to work on /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:32:33,329] {processor.py:642} INFO - Processing file /opt/airflow/dags/sql_demo.py for tasks to queue
+[2022-07-11 04:32:33,329] {logging_mixin.py:109} INFO - [2022-07-11 04:32:33,329] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:32:33,626] {processor.py:652} INFO - DAG(s) dict_keys(['sql_demo']) retrieved from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:32:33,645] {logging_mixin.py:109} INFO - [2022-07-11 04:32:33,644] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 04:32:33,662] {logging_mixin.py:109} INFO - [2022-07-11 04:32:33,662] {dag.py:2937} INFO - Setting next_dagrun for sql_demo to None
+[2022-07-11 04:32:33,670] {processor.py:171} INFO - Processing /opt/airflow/dags/sql_demo.py took 0.344 seconds
+[2022-07-11 04:33:03,852] {processor.py:163} INFO - Started process (PID=1136) to work on /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:33:03,852] {processor.py:642} INFO - Processing file /opt/airflow/dags/sql_demo.py for tasks to queue
+[2022-07-11 04:33:03,852] {logging_mixin.py:109} INFO - [2022-07-11 04:33:03,852] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:33:04,088] {processor.py:652} INFO - DAG(s) dict_keys(['sql_demo']) retrieved from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:33:04,099] {logging_mixin.py:109} INFO - [2022-07-11 04:33:04,098] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 04:33:04,111] {logging_mixin.py:109} INFO - [2022-07-11 04:33:04,111] {dag.py:2937} INFO - Setting next_dagrun for sql_demo to None
+[2022-07-11 04:33:04,118] {processor.py:171} INFO - Processing /opt/airflow/dags/sql_demo.py took 0.268 seconds
+[2022-07-11 04:33:34,713] {processor.py:163} INFO - Started process (PID=1208) to work on /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:33:34,714] {processor.py:642} INFO - Processing file /opt/airflow/dags/sql_demo.py for tasks to queue
+[2022-07-11 04:33:34,715] {logging_mixin.py:109} INFO - [2022-07-11 04:33:34,715] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:33:34,967] {processor.py:652} INFO - DAG(s) dict_keys(['sql_demo']) retrieved from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:33:34,980] {logging_mixin.py:109} INFO - [2022-07-11 04:33:34,980] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 04:33:35,008] {logging_mixin.py:109} INFO - [2022-07-11 04:33:35,008] {dag.py:2937} INFO - Setting next_dagrun for sql_demo to None
+[2022-07-11 04:33:35,016] {processor.py:171} INFO - Processing /opt/airflow/dags/sql_demo.py took 0.305 seconds
+[2022-07-11 04:34:05,475] {processor.py:163} INFO - Started process (PID=1279) to work on /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:34:05,476] {processor.py:642} INFO - Processing file /opt/airflow/dags/sql_demo.py for tasks to queue
+[2022-07-11 04:34:05,476] {logging_mixin.py:109} INFO - [2022-07-11 04:34:05,476] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:34:05,800] {processor.py:652} INFO - DAG(s) dict_keys(['sql_demo']) retrieved from /opt/airflow/dags/sql_demo.py
+[2022-07-11 04:34:05,816] {logging_mixin.py:109} INFO - [2022-07-11 04:34:05,815] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 04:34:05,829] {logging_mixin.py:109} INFO - [2022-07-11 04:34:05,829] {dag.py:2937} INFO - Setting next_dagrun for sql_demo to None
+[2022-07-11 04:34:05,835] {processor.py:171} INFO - Processing /opt/airflow/dags/sql_demo.py took 0.362 seconds

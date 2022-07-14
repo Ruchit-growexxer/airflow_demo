@@ -1,0 +1,84 @@
+[2022-07-12 12:40:30,538] {processor.py:163} INFO - Started process (PID=45524) to work on /opt/airflow/dags/custom_hello.py
+[2022-07-12 12:40:30,539] {processor.py:642} INFO - Processing file /opt/airflow/dags/custom_hello.py for tasks to queue
+[2022-07-12 12:40:30,539] {logging_mixin.py:109} INFO - [2022-07-12 12:40:30,539] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/custom_hello.py
+[2022-07-12 12:40:30,544] {logging_mixin.py:109} INFO - [2022-07-12 12:40:30,543] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/custom_hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/custom_hello.py", line 5, in <module>
+    from airflow.operators import MultiplyBy5Operator
+ImportError: cannot import name 'MultiplyBy5Operator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-12 12:40:30,544] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/custom_hello.py
+[2022-07-12 12:40:30,556] {processor.py:171} INFO - Processing /opt/airflow/dags/custom_hello.py took 0.019 seconds
+[2022-07-12 12:41:01,098] {processor.py:163} INFO - Started process (PID=45587) to work on /opt/airflow/dags/custom_hello.py
+[2022-07-12 12:41:01,100] {processor.py:642} INFO - Processing file /opt/airflow/dags/custom_hello.py for tasks to queue
+[2022-07-12 12:41:01,100] {logging_mixin.py:109} INFO - [2022-07-12 12:41:01,100] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/custom_hello.py
+[2022-07-12 12:41:01,104] {logging_mixin.py:109} INFO - [2022-07-12 12:41:01,104] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/custom_hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/custom_hello.py", line 5, in <module>
+    from airflow.operators import MultiplyBy5Operator
+ImportError: cannot import name 'MultiplyBy5Operator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-12 12:41:01,104] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/custom_hello.py
+[2022-07-12 12:41:01,116] {processor.py:171} INFO - Processing /opt/airflow/dags/custom_hello.py took 0.020 seconds
+[2022-07-12 12:41:31,661] {processor.py:163} INFO - Started process (PID=45657) to work on /opt/airflow/dags/custom_hello.py
+[2022-07-12 12:41:31,664] {processor.py:642} INFO - Processing file /opt/airflow/dags/custom_hello.py for tasks to queue
+[2022-07-12 12:41:31,665] {logging_mixin.py:109} INFO - [2022-07-12 12:41:31,664] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/custom_hello.py
+[2022-07-12 12:41:31,673] {logging_mixin.py:109} INFO - [2022-07-12 12:41:31,672] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/custom_hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/custom_hello.py", line 5, in <module>
+    from airflow.operators import MultiplyBy5Operator
+ImportError: cannot import name 'MultiplyBy5Operator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-12 12:41:31,673] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/custom_hello.py
+[2022-07-12 12:41:31,691] {processor.py:171} INFO - Processing /opt/airflow/dags/custom_hello.py took 0.031 seconds
+[2022-07-12 12:42:02,495] {processor.py:163} INFO - Started process (PID=45728) to work on /opt/airflow/dags/custom_hello.py
+[2022-07-12 12:42:02,497] {processor.py:642} INFO - Processing file /opt/airflow/dags/custom_hello.py for tasks to queue
+[2022-07-12 12:42:02,497] {logging_mixin.py:109} INFO - [2022-07-12 12:42:02,497] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/custom_hello.py
+[2022-07-12 12:42:02,501] {logging_mixin.py:109} INFO - [2022-07-12 12:42:02,500] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/custom_hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/custom_hello.py", line 5, in <module>
+    from airflow.operators import MultiplyBy5Operator
+ImportError: cannot import name 'MultiplyBy5Operator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-12 12:42:02,501] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/custom_hello.py
+[2022-07-12 12:42:02,516] {processor.py:171} INFO - Processing /opt/airflow/dags/custom_hello.py took 0.022 seconds
+[2022-07-12 12:42:32,988] {processor.py:163} INFO - Started process (PID=45789) to work on /opt/airflow/dags/custom_hello.py
+[2022-07-12 12:42:32,990] {processor.py:642} INFO - Processing file /opt/airflow/dags/custom_hello.py for tasks to queue
+[2022-07-12 12:42:32,990] {logging_mixin.py:109} INFO - [2022-07-12 12:42:32,990] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/custom_hello.py
+[2022-07-12 12:42:32,998] {logging_mixin.py:109} INFO - [2022-07-12 12:42:32,998] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/custom_hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/custom_hello.py", line 5, in <module>
+    from airflow.operators import MultiplyBy5Operator
+ImportError: cannot import name 'MultiplyBy5Operator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-12 12:42:32,999] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/custom_hello.py
+[2022-07-12 12:42:33,011] {processor.py:171} INFO - Processing /opt/airflow/dags/custom_hello.py took 0.028 seconds
+[2022-07-12 12:43:03,750] {processor.py:163} INFO - Started process (PID=45859) to work on /opt/airflow/dags/custom_hello.py
+[2022-07-12 12:43:03,750] {processor.py:642} INFO - Processing file /opt/airflow/dags/custom_hello.py for tasks to queue
+[2022-07-12 12:43:03,751] {logging_mixin.py:109} INFO - [2022-07-12 12:43:03,751] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/custom_hello.py
+[2022-07-12 12:43:03,754] {logging_mixin.py:109} INFO - [2022-07-12 12:43:03,754] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/custom_hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/custom_hello.py", line 5, in <module>
+    from airflow.operators import MultiplyBy5Operator
+ImportError: cannot import name 'MultiplyBy5Operator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-07-12 12:43:03,754] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/custom_hello.py
+[2022-07-12 12:43:03,771] {processor.py:171} INFO - Processing /opt/airflow/dags/custom_hello.py took 0.022 seconds
